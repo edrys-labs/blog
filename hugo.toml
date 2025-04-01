@@ -1,0 +1,49 @@
+baseURL = 'https://edrys-labs.github.io/blog'
+languageCode = 'en-us'
+title = 'edrys-labs blog'
+
+theme = 'hugo-theme-terminal'
+
+pagination.pagerSize = 5
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+contentTypeName = "posts"
+showMenuItems = 3
+fullWidthTheme = false
+centerTheme = false
+# Make posts the home page content
+mainSections = ["posts"]
+
+[languages]
+[languages.en]
+title = "edrys-labs blog"
+subtitle = "Updates, guides, and technical insights"
+keywords = ""
+copyright = ""
+menuMore = "Show more"
+readMore = "Read more"
+readOtherPosts = "Read other posts"
+
+[languages.en.params.logo]
+logoText = "edrys-labs blog"
+logoHomeLink = "/"
+
+[languages.en.menu]
+[[languages.en.menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts"
+weight = 1
+[[languages.en.menu.main]]
+identifier = "about"
+name = "About"
+url = "/about"
+weight = 2
+[[languages.en.menu.main]]
+identifier = "showcase"
+name = "Showcase"
+url = "/showcase"
+weight = 3
