@@ -4,7 +4,9 @@ defaultContentLanguage = "en"
 hasCJKLanguage = true
 title = 'edrys-Lite [BLOG]'
 copyright = 'The erdys-Lite Team'
-theme = 'hugo-theme-itheme'
+theme = 'itheme'
+
+timeZone = "Europe/Berlin"
 
 [pagination]
 pagerSize = 5

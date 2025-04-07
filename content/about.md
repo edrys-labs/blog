@@ -1,10 +1,47 @@
 ---
-title: '关于我们'
+title: 'About edrys-Lite'
 plain: true
 theme: 'light'
 ---
-苹果公司（英语：Apple Inc.），原称苹果电脑公司（英语：Apple Computer, Inc.），是源自美国的跨国科技公司，总部位于美国加州的库比蒂诺，与亚马逊、谷歌、微软、Meta并列为五大科技巨擘。目前的业务包括设计、研发、手机通讯和销售消费电子、计算机软件、在线服务和个人计算机。
 
-1976年4月，史蒂夫·乔布斯、斯蒂夫·沃兹尼亚克和罗纳德·韦恩创立了苹果公司，目的是为了研发和销售沃兹尼亚克Apple I个人电脑，但韦恩12天后就放弃了自己的股份。1977年1月，正式确定公司名称为“苹果电脑公司”，包括Apple II在内的电脑销量迅速增长。几年之内，乔布斯和沃兹尼亚克就聘雇了一批电脑设计师，并拥有了一条生产线。1980年，苹果公司上市，迅速获得了财务上的成功。在接下来的几年里，苹果公司推出了具有图形用户界面的新电脑，如1984年推出的Macintosh 128K，同时苹果公司的产品营销广告得到广泛好评。然而，其产品的高单价和有限的应用程序引发了诸多问题，其高管之间的权力斗争不断。1985年，沃兹尼亚克离开了苹果公司，继续担任名誉雇员，而乔布斯和其他人则辞职成立了NeXT公司。1996年，苹果收购NeXT公司，贾伯斯于隔年重返苹果公司，率领苹果公司成为科技巨擘。
+# Reimagining Educational Technology
 
-该公司最著名的硬件产品有iPhone智能手机、iPad平板电脑、Mac个人电脑、iPod音乐播放器、Apple Watch智能手表、Apple TV媒体播放器 、AirPods无线耳机和HomePod智能音箱、游戏机 Pippin atmark ；软件有macOS、iOS、iPadOS、watchOS和tvOS五大操作系统、iTunes播放器、Safari网页浏览器 、Shazam音乐识别，还有iLife和iWork创意和生产力套件，以及Final Cut Pro、Logic Pro和Xcode等专业软件；在线服务有iTunes Store、iOS App Store、Mac App Store、Apple Music、Apple TV+、iMessage和iCloud。苹果公司还有其他一系列服务包括Apple Store、Genius Bar、AppleCare、Apple Pay、Apple Pay Cash和Apple Card等。
+Welcome to the edrys-Lite blog! This is where we share our journey of creating a lighter, more accessible approach to classroom technology.
+
+## What is edrys-Lite?
+
+edrys-Lite is an open-source educational platform that brings simplicity back to digital classrooms. Born from the belief that educational technology should empower rather than overwhelm, we've created a streamlined system that requires:
+
+- No installation
+- No server setup
+- No user accounts
+- No database configuration
+
+Instead, edrys-Lite offers a browser-based collaborative learning environment that just works, letting educators focus on teaching rather than troubleshooting.
+
+## Our Philosophy
+
+We believe educational technology should be:
+
+1. **Accessible to everyone** - regardless of technical skill or infrastructure
+2. **Genuinely helpful** - enhancing teaching and learning, not complicating it
+3. **Respectful of privacy** - minimizing data collection and storage
+4. **Adaptable to different contexts** - from formal classrooms to informal learning spaces
+
+## Technical Approach
+
+edrys-Lite embraces modern web technologies to create a lightweight yet powerful platform:
+
+- Built with modern JavaScript and web standards
+- Uses peer-to-peer connections to eliminate server dependencies
+- Employs executable notebooks for interactive learning experiences
+- Integrates seamlessly with LiaScript for rich educational content
+
+## Join Our Journey
+
+edrys-Lite is more than software—it's a community effort to improve how we teach and learn in digital spaces. Whether you're an educator looking for simpler tools, a student seeking engaging learning experiences, or a developer interested in educational technology, we welcome your participation.
+
+Follow our development, try our demos, and contribute your ideas. Together, we're creating educational technology that truly serves education.
+
+[Explore edrys-Lite →](https://edrys-labs.github.io)
+
