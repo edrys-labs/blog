@@ -1,7 +1,7 @@
 (() => {
   // ns-hugo-params:<stdin>
-  var baseURL = "/blog/";
-  var params = { blogroll: [{ name: "edrys-Lite", url: "https://edrys-labs.github.io" }, { name: "LiaScript", url: "https://LiaScript.github.io" }], defaultcover: "https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg", email: "andre.dietrich@informatik.tu-freiberg.de", showcopyright: true, showmore: true, showrss: true, socialmedia: [{ name: "Github", url: "https://github.com/edrys-labs" }] };
+  var baseURL = "blog/";
+  var params = { blogroll: [{ name: "edrys-Lite", url: "https://edrys-labs.github.io" }, { name: "LiaScript", url: "https://LiaScript.github.io" }], defaultcover: "static/img/social-card.png", email: "andre.dietrich@informatik.tu-freiberg.de", showcopyright: true, showmore: true, showrss: true, socialmedia: [{ name: "Github", url: "https://github.com/edrys-labs" }] };
 
   // <stdin>
   var { appid, appkey, searchindex: indexName, enabled } = params.algolia;
