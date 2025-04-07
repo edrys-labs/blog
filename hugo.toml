@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://edrys-labs.github.io/blog/'
 languageCode = 'en'
 defaultContentLanguage = "en"
 hasCJKLanguage = true
@@ -12,7 +12,7 @@ timeZone = "Europe/Berlin"
 pagerSize = 5
 
 [params]
-defaultCover = 'https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg'
+defaultCover = 'static/img/social-card.png'
 email = 'andre.dietrich@informatik.tu-freiberg.de'
 [[params.socialMedia]]
 name = 'Github'

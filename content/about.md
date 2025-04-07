@@ -4,8 +4,6 @@ plain: true
 theme: 'light'
 ---
 
-# Reimagining Educational Technology
-
 Welcome to the edrys-Lite blog! This is where we share our journey of creating a lighter, more accessible approach to classroom technology.
 
 ## What is edrys-Lite?

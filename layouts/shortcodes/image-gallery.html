@@ -1,0 +1,58 @@
+<style>
+    .image-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+        list-style-type: none;
+    }
+    .image-gallery li {
+        display: block; 
+        margin: 0.5%;
+        /* Wider images, 5 per row on desktop */
+        width: 31%; 
+    }
+    @media (max-width: 800px) {
+        .image-gallery li { width: 31%; } /* 3 per row */
+    }
+    @media (max-width: 600px) {
+        .image-gallery li { width: 50%; } /* 2 per row */
+    }
+    .image-gallery li a {text-align: center; text-decoration: none!important; color: #777;}
+    .image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
+    .image-gallery li a img {width: 100%; display: block;}
+
+    .lb-close {
+      position: absolute;
+      top: -42px;
+      right: 8px;
+    }
+</style>
+
+<!-- Add Lightbox CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+
+{{ $dir := string (.Get "gallery_dir") }}
+<div class="component-content component">
+<ul class="image-gallery">
+{{ range (readDir (print "/assets" $dir)) }}
+  {{- $image := resources.Get (printf "%s/%s" (strings.TrimPrefix "/" $dir) .Name) -}}
+  {{- $imagetitle := index (split .Name ".") 0 -}}
+    <li>
+      <a href="{{ ($image.Fit "1600x1600 q50").Permalink }}" data-lightbox="gallery" data-title="{{ $imagetitle }}" class="lightbox-image">
+        <img src="{{ ($image.Fill "300x300 q50").Permalink }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}">
+      </a>
+    </li>
+{{ end }}
+</ul>
+</div>
+<!-- Add Lightbox JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+<script>
+  lightbox.option({
+    'resizeDuration': 200,
+    'wrapAround': true,
+    'albumLabel': "Image %1 of %2"
+  });
+</script>

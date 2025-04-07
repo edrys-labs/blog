@@ -1,6 +1,7 @@
 ---
 title: "Imprint"
-
+plain: true
+theme: "light"
 meta_title: "edrys-Labs - Imprint"
 # save as draft
 draft: false
