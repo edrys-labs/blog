@@ -1,49 +1,30 @@
-baseURL = 'https://edrys-labs.github.io/blog'
-languageCode = 'en-us'
-title = 'edrys-labs blog'
+baseURL = '/'
+languageCode = 'en'
+defaultContentLanguage = "en"
+hasCJKLanguage = true
+title = 'edrys-Lite [BLOG]'
+copyright = 'The erdys-Lite Team'
+theme = 'hugo-theme-itheme'
 
-theme = 'hugo-theme-terminal'
+[pagination]
+pagerSize = 5
 
-pagination.pagerSize = 5
+[params]
+defaultCover = 'https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg'
+email = 'andre.dietrich@informatik.tu-freiberg.de'
+[[params.socialMedia]]
+name = 'Github'
+url = 'https://github.com/edrys-labs'
+#[[params.socialMedia]]
+#name = 'Twitter'
+#url = 'https://twitter.com/some-one'
+[[params.blogroll]]
+name = 'edrys-Lite'
+url = 'https://edrys-labs.github.io'
+[[params.blogroll]]
+name = 'LiaScript'
+url = 'https://LiaScript.github.io'
+
 
 [markup.goldmark.renderer]
 unsafe = true
-
-[params]
-contentTypeName = "posts"
-showMenuItems = 3
-fullWidthTheme = false
-centerTheme = false
-# Make posts the home page content
-mainSections = ["posts"]
-
-[languages]
-[languages.en]
-title = "edrys-labs blog"
-subtitle = "Updates, guides, and technical insights"
-keywords = ""
-copyright = ""
-menuMore = "Show more"
-readMore = "Read more"
-readOtherPosts = "Read other posts"
-
-[languages.en.params.logo]
-logoText = "edrys-labs blog"
-logoHomeLink = "/"
-
-[languages.en.menu]
-[[languages.en.menu.main]]
-identifier = "posts"
-name = "Posts"
-url = "/posts"
-weight = 1
-[[languages.en.menu.main]]
-identifier = "about"
-name = "About"
-url = "/about"
-weight = 2
-[[languages.en.menu.main]]
-identifier = "showcase"
-name = "Showcase"
-url = "/showcase"
-weight = 3
