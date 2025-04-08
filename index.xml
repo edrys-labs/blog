@@ -23,7 +23,24 @@ It is legally represented by the current Rector, Prof. Dr. Klaus-Dieter Barbknec
  &lt;/h4>
 &lt;/div>&lt;p>Saxon State Ministry for Science and the Arts&lt;br>
 Wigardstraße 17&lt;br>
-01097 Dresden, Germany&lt;/p></description></item><item><title>University:Future Festival 2024</title><link>blog/posts/004_university-future-festival-2024/</link><pubDate>Wed, 05 Jun 2024 00:00:00 +0200</pubDate><guid>blog/posts/004_university-future-festival-2024/</guid><description>&lt;p>Is CrossLab a Tale of Tomorrow? The team from Freiberg presented the visions of our project at the University:Future Festival 2024 and discussed the potential contributions of digital laboratories for curent challenging questions of learning processes.&lt;/p>
+01097 Dresden, Germany&lt;/p></description></item><item><title>Deploying RemoteLabs in Seconds with Edrys-Lite</title><link>blog/posts/005_deploying-remotelabs-in-seconds-with-edrys-lite/</link><pubDate>Fri, 05 Jul 2024 00:00:00 +0200</pubDate><guid>blog/posts/005_deploying-remotelabs-in-seconds-with-edrys-lite/</guid><description>&lt;p>Edrys-Lite is a browser-based approach to remote labs that simplifies the process of creating and sharing educational lab environments. This innovative tool leverages two key technologies: WebRTC for direct peer-to-peer connections between browsers, and CRDT (Conflict-free Replicated Data Types) for real-time data synchronization. Additionally, Edrys-Lite replicates the modular approach and reusability of components from Edrys, its server-based predecessor, ensuring a seamless and efficient lab deployment experience.&lt;/p>
+&lt;div class="component-content component">
+ &lt;iframe
+ style="width: 100%; aspect-ratio: 16 / 9"
+ src="https://www.youtube-nocookie.com/embed/6ZjGHorc2ds"
+ frameborder="0"
+ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+ referrerpolicy="strict-origin-when-cross-origin"
+ allowfullscreen
+ >&lt;/iframe>
+&lt;/div>
+
+
+&lt;div class="component-content pagebody component">
+ &lt;h2 id="key-features-of-edrys-lite" class="pagebody-header">
+ Key Features of Edrys-Lite
+ &lt;/h2>
+&lt;/div>&lt;p>Project-site: &lt;a href="https://edrys-labs.github.io">https://edrys-labs.github.io&lt;/a>&lt;/p></description></item><item><title>University:Future Festival 2024</title><link>blog/posts/004_university-future-festival-2024/</link><pubDate>Wed, 05 Jun 2024 00:00:00 +0200</pubDate><guid>blog/posts/004_university-future-festival-2024/</guid><description>&lt;p>Is CrossLab a Tale of Tomorrow? The team from Freiberg presented the visions of our project at the University:Future Festival 2024 and discussed the potential contributions of digital laboratories for curent challenging questions of learning processes.&lt;/p>
 &lt;style>
  .image-gallery {
  display: flex;
