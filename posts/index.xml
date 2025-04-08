@@ -1,117 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on edrys-Lite [BLOG]</title><link>blog/posts/</link><description>Recent content in Posts on edrys-Lite [BLOG]</description><generator>Hugo</generator><language>en</language><copyright>The erdys-Lite Team</copyright><lastBuildDate>Mon, 20 Mar 2023 13:06:38 +0800</lastBuildDate><atom:link href="blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown Syntax Example</title><link>blog/posts/mark-down-syntax/</link><pubDate>Mon, 20 Mar 2023 13:06:38 +0800</pubDate><guid>blog/posts/mark-down-syntax/</guid><description>&lt;div class="component-content pagebody component">
- &lt;h1 id="headings" class="pagebody-header">
- Headings
- &lt;/h1>
-&lt;/div>&lt;div class="component-content pagebody component code">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on edrys-Lite [BLOG]</title><link>blog/posts/</link><description>Recent content in Posts on edrys-Lite [BLOG]</description><generator>Hugo</generator><language>en</language><copyright>The erdys-Lite Team</copyright><lastBuildDate>Mon, 07 Apr 2025 00:00:00 +0200</lastBuildDate><atom:link href="blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Documentation</title><link>blog/posts/001_documentation/</link><pubDate>Mon, 07 Apr 2025 00:00:00 +0200</pubDate><guid>blog/posts/001_documentation/</guid><description>&lt;p>todo&lt;/p></description></item><item><title>University:Future Festival 2024</title><link>blog/posts/004_university-future-festival-2024/</link><pubDate>Wed, 05 Jun 2024 00:00:00 +0200</pubDate><guid>blog/posts/004_university-future-festival-2024/</guid><description>&lt;p>Is CrossLab a Tale of Tomorrow? The team from Freiberg presented the visions of our project at the University:Future Festival 2024 and discussed the potential contributions of digital laboratories for curent challenging questions of learning processes.&lt;/p>
+&lt;style>
+ .image-gallery {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ margin: 0 auto;
+ width: 100%;
+ list-style-type: none;
+ }
+ .image-gallery li {
+ display: block; 
+ margin: 0.5%;
  
- 
- 
- &lt;div class="">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span># H1
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## H2
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">### H3
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#### H4
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">##### H5
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>###### H6&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
- 
+ width: 31%; 
+ }
+ @media (max-width: 800px) {
+ .image-gallery li { width: 31%; } 
+ }
+ @media (max-width: 600px) {
+ .image-gallery li { width: 50%; } 
+ }
+ .image-gallery li a {text-align: center; text-decoration: none!important; color: #777;}
+ .image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
+ .image-gallery li a img {width: 100%; display: block;}
+
+ .lb-close {
+ position: absolute;
+ top: -42px;
+ right: 8px;
+ }
+&lt;/style>
+
+
+&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+
+
+&lt;div class="component-content component">
+&lt;ul class="image-gallery">
+&lt;li>
+ &lt;a href="blog/img/posts/university-future-festival-24/1_hu_6a3884bcb85e2e17.jpg" data-lightbox="gallery" data-title="1" class="lightbox-image">
+ &lt;img src="blog/img/posts/university-future-festival-24/1_hu_8b822f58bd5c1caa.jpg" alt="1" title="1">
+ &lt;/a>
+ &lt;/li>
+&lt;li>
+ &lt;a href="blog/img/posts/university-future-festival-24/2_hu_4ddb455447a80708.jpg" data-lightbox="gallery" data-title="2" class="lightbox-image">
+ &lt;img src="blog/img/posts/university-future-festival-24/2_hu_741b483a6c2e505.jpg" alt="2" title="2">
+ &lt;/a>
+ &lt;/li>
+&lt;li>
+ &lt;a href="blog/img/posts/university-future-festival-24/cover_hu_35b33f786752782d.jpg" data-lightbox="gallery" data-title="cover" class="lightbox-image">
+ &lt;img src="blog/img/posts/university-future-festival-24/cover_hu_11d2af9ec809cf07.jpg" alt="cover" title="cover">
+ &lt;/a>
+ &lt;/li>
+
+&lt;/ul>
 &lt;/div>
-&lt;div class="component-content pagebody component">
- &lt;h1 id="h1" class="pagebody-header">
- H1
- &lt;/h1>
-&lt;/div>
-&lt;div class="component-content pagebody component">
- &lt;h2 id="h2" class="pagebody-header">
- H2
- &lt;/h2>
-&lt;/div>
-&lt;div class="component-content pagebody component">
- &lt;h3 id="h3" class="pagebody-header">
- H3
- &lt;/h3>
-&lt;/div>
-&lt;div class="component-content pagebody component">
- &lt;h4 id="h4" class="pagebody-header">
- H4
- &lt;/h4>
-&lt;/div>
-&lt;div class="component-content pagebody component">
- &lt;h5 id="h5" class="pagebody-header">
- H5
- &lt;/h5>
-&lt;/div>
-&lt;div class="component-content pagebody component">
- &lt;h6 id="h6" class="pagebody-header">
- H6
- &lt;/h6>
-&lt;/div>
-&lt;div class="component-content pagebody component">
- &lt;h1 id="image" class="pagebody-header">
- Image
- &lt;/h1>
-&lt;/div>&lt;div class="component-content pagebody component code">
- 
- 
- 
- &lt;div class="">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>Image - Wide
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>![&lt;span style="color:#f92672">Image Wide|wide&lt;/span>](&lt;span style="color:#a6e22e">https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg&lt;/span>)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Image - Big
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>![&lt;span style="color:#f92672">Image Big|big&lt;/span>](&lt;span style="color:#a6e22e">https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg&lt;/span>)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Image - Inline
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>![&lt;span style="color:#f92672">Image Inline|inline&lt;/span>](&lt;span style="color:#a6e22e">https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg&lt;/span>)&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
- 
-&lt;/div>&lt;p>
 
-
-
-
-
-
-
-
-&lt;figure class="image component image-fullbleed body-copy-wide nr-scroll-animation nr-scroll-animation--on image-wide"> &lt;div class="component-content">
- &lt;div class="image-sharesheet">
- &lt;div class="image image-load image-asset image-fe05f48708710a6818d1ed40f4f1ca71" id="lhtfe05f48708710a6818d1ed40f4f1ca71">
- &lt;picture class="picture">
- &lt;img class="picture-image" data-src="https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg" alt="Image Wide|wide" />
- &lt;/picture>
- &lt;/div>
- &lt;/div>
- &lt;div class="image-description">
- &lt;div class="image-caption">
- Image Wide
- &lt;/div>
- &lt;/div>
- &lt;/div>
-&lt;/figure>
-&lt;/p></description></item><item><title>Apple 推出新款 HomePod，带来突破性音质与智能体验</title><link>blog/posts/apple-introduces-the-new-homepod-with-breakthrough-sound-and-intelligence/</link><pubDate>Mon, 27 Feb 2023 13:06:38 +0800</pubDate><guid>blog/posts/apple-introduces-the-new-homepod-with-breakthrough-sound-and-intelligence/</guid><description>&lt;p>
-
-
-
-
-
-
-
-
-&lt;figure class="image component image-fullbleed body-copy-wide nr-scroll-animation nr-scroll-animation--on image-big"> &lt;div class="component-content">
- &lt;div class="image-sharesheet">
- &lt;div class="image image-load image-asset image-b36dd80c7266389b09de406a4022ce5e" id="lhtb36dd80c7266389b09de406a4022ce5e">
- &lt;picture class="picture">
- &lt;img class="picture-image" data-src="https://www.apple.com.cn/newsroom/images/product/homepod/standard/Apple-HomePod-hero-230118_big.jpg.large_2x.jpg" alt="HomePod 汇集了多项 Apple 创新技术、Siri 智能和智能家居功能，为用户带来前所未有的聆听体验。" />
- &lt;/picture>
- &lt;/div>
- &lt;/div>
- &lt;div class="image-description">
- &lt;div class="image-caption">
- HomePod 汇集了多项 Apple 创新技术、Siri 智能和智能家居功能，为用户带来前所未有的聆听体验。
- &lt;/div>
- &lt;/div>
- &lt;/div>
-&lt;/figure>
-&lt;/p></description></item><item><title>2023年VR游戏周即将到来！</title><link>blog/posts/vr-games-week-2023-starts-next-week/</link><pubDate>Tue, 27 Dec 2022 13:06:38 +0800</pubDate><guid>blog/posts/vr-games-week-2023-starts-next-week/</guid><description>&lt;p>PlayStation VR2即将于下周发布。为表庆祝，我们准备介绍数部即将登陆此平台的虚幻引擎VR游戏，以及一些准备登陆Meta Quest、PCVR等平台的虚幻VR作品。&lt;/p></description></item><item><title>毕业第一年：从学生向3D美术师的转变</title><link>blog/posts/the-first-year-out-moving-from-student-to-3d-artist/</link><pubDate>Wed, 07 Dec 2022 13:06:38 +0800</pubDate><guid>blog/posts/the-first-year-out-moving-from-student-to-3d-artist/</guid><description>&lt;p>我们都知道，无论哪个领域，离开学校进入职场的感觉有多么令人生畏。你具备合适的技能吗？你学到的技术能在你获得的工作中发挥作用吗？这足以让你夜不能寐。&lt;/p></description></item><item><title>虚幻引擎5.1带来电影、广播、动画和实况活动新功能</title><link>blog/posts/unreal-engine-5-1-delivers-new-features-for-filmmaking-broadcast-animation-and-live-events/</link><pubDate>Sat, 12 Nov 2022 13:06:38 +0800</pubDate><guid>blog/posts/unreal-engine-5-1-delivers-new-features-for-filmmaking-broadcast-animation-and-live-events/</guid><description>&lt;p>随着虚幻引擎5.1的发布，它所带来的改进将使所有行业的创作者受益。在这篇博文中，我们将特别关注真人与动画影视内容（包括虚拟制片和LED舞台项目）的创作者、广播行业从业者，以及实况活动制作团队，看看他们将享受到哪些新功能。&lt;/p></description></item><item><title>Documentation</title><link>blog/posts/001_documentation/</link><pubDate>Fri, 25 Jan 2019 00:00:00 +0100</pubDate><guid>blog/posts/001_documentation/</guid><description>&lt;p>asfdas&lt;/p></description></item><item><title>Workshop Ste</title><link>blog/posts/002_workshop-ste/</link><pubDate>Fri, 25 Jan 2019 00:00:00 +0100</pubDate><guid>blog/posts/002_workshop-ste/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante. &lt;strong>Donec quis dolor nec nunc mollis interdum vel in purus&lt;/strong>. Sed vitae leo scelerisque, sollicitudin elit sed, congue ante. In augue nisl, vestibulum commodo est a, tristique porttitor est. Proin laoreet iaculis ornare. Nullam ut neque quam.&lt;/p>
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js">&lt;/script>
+&lt;script>
+ lightbox.option({
+ 'resizeDuration': 200,
+ 'wrapAround': true,
+ 'albumLabel': "Image %1 of %2"
+ });
+&lt;/script>
+&lt;p>André Dietrich and Sebastian Zug illustrated the features and capabilities of serverless and adaptable digital laboratories in his presentation RemoteLabs as OER - The next evolutionary step. After a short introduction, he discussed the exemplary implementation of a virtual environment for programming as well as an Arduino-based remote installation. The presentation can be found here:&lt;/p></description></item><item><title>CrossLab at eLearning Africa 2024</title><link>blog/posts/003_elearning-africa/</link><pubDate>Thu, 30 May 2024 00:00:00 +0200</pubDate><guid>blog/posts/003_elearning-africa/</guid><description>&lt;p>We are delighted to share that our research project participated in eLearning Africa from 29 to 31 May 2024. During this 3-day conference, we hosted an engaging demonstration and workshop on the topic of &amp;ldquo;Creating Sustainable and Extendable Open Educational Resources (OER) as an Interactive Classroom.&amp;rdquo; A key component of this session was the edrys-Lite, which has been further developed within the CrossLab framework. The event provided an excellent opportunity to showcase our latest advancements and collaborate with participants to shape the future of interactive educational resources. We are grateful for the opportunity to demonstrate how edrys-Lite contributes to the creation of sustainable and extendable OER.&lt;/p></description></item><item><title>Workshop Ste</title><link>blog/posts/002_workshop-ste/</link><pubDate>Fri, 25 Jan 2019 00:00:00 +0100</pubDate><guid>blog/posts/002_workshop-ste/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante. &lt;strong>Donec quis dolor nec nunc mollis interdum vel in purus&lt;/strong>. Sed vitae leo scelerisque, sollicitudin elit sed, congue ante. In augue nisl, vestibulum commodo est a, tristique porttitor est. Proin laoreet iaculis ornare. Nullam ut neque quam.&lt;/p>
 &lt;blockquote>
 &lt;p>Fusce pharetra suscipit orci nec tempor. Quisque vitae sem sit amet sem mollis consequat. Sed at imperdiet lorem. Vestibulum pharetra faucibus odio, ac feugiat tellus sollicitudin at. Pellentesque varius tristique mi imperdiet dapibus. Duis orci odio, sodales lacinia venenatis sit amet, feugiat et diam.&lt;/p></description></item></channel></rss>
