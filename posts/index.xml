@@ -10,9 +10,9 @@
 
 &lt;figure class="image component image-fullbleed body-copy-wide nr-scroll-animation nr-scroll-animation--on image-big"> &lt;div class="component-content">
  &lt;div class="image-sharesheet">
- &lt;div class="image image-load image-asset image-c45af5363553f6f72f5a9fde9de623cc" id="lhtc45af5363553f6f72f5a9fde9de623cc">
+ &lt;div class="image image-load image-asset image-8ec246caaa986bb16e0cb83f8d7cfe57" id="lht8ec246caaa986bb16e0cb83f8d7cfe57">
  &lt;picture class="picture">
- &lt;img class="picture-image" data-src="static/img/posts/students-innovate-with-edrys-lite-to-design-remote-labs/cover.jpg" alt="Sharing an embedded systems lab only via the browser" />
+ &lt;img class="picture-image" data-src="https://edrys-labs.github.io/blog/static/img/posts/students-innovate-with-edrys-lite-to-design-remote-labs/cover.jpg" alt="Sharing an embedded systems lab only via the browser" />
  &lt;/picture>
  &lt;/div>
  &lt;/div>
