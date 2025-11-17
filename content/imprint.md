@@ -18,12 +18,12 @@ Phone: +49 3731 39-0\
 Fax: +49 3731 39-3323\
 Email: universitaet@tu-freiberg.de
 
-Website: [http://tu-freiberg.de](http://tu-freiberg.de)
+Website: [https://tu-freiberg.de](https://tu-freiberg.de)
 
 #### Legal Form and Representation
 
 Technische Universität Bergakademie Freiberg is a public corporation.
-It is legally represented by the current Rector, Prof. Dr. Klaus-Dieter Barbknecht.
+It is legally represented by the current Rector, Prof. Dr. Jutta Emes.
 
 #### Supervisory Authority
 
