@@ -1,49 +1,169 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>edrys-Lite [BLOG]</title><link>https://edrys-labs.github.io/blog/</link><description>Recent content on edrys-Lite [BLOG]</description><generator>Hugo</generator><language>en</language><copyright>The erdys-Lite Team</copyright><lastBuildDate>Wed, 09 Apr 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://edrys-labs.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Presentation &amp; Workshop at the STE 2025 in Chile</title><link>https://edrys-labs.github.io/blog/posts/002_presentation-and-workshop-at-the-ste-2025/</link><pubDate>Wed, 09 Apr 2025 00:00:00 +0200</pubDate><guid>https://edrys-labs.github.io/blog/posts/002_presentation-and-workshop-at-the-ste-2025/</guid><description>&lt;div class="component-content pagebody component">
- &lt;h1 id="presentation" class="pagebody-header">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>edrys-Lite [BLOG]</title><link>https://edrys-labs.github.io/blog/</link><description>Recent content on edrys-Lite [BLOG]</description><generator>Hugo</generator><language>en</language><copyright>The erdys-Lite Team</copyright><lastBuildDate>Thu, 13 Nov 2025 10:00:00 +0100</lastBuildDate><atom:link href="https://edrys-labs.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>The Mobile Remote Lab Station: Hardware Meets Software</title><link>https://edrys-labs.github.io/blog/posts/025_mobile-lab-station/</link><pubDate>Thu, 13 Nov 2025 10:00:00 +0100</pubDate><guid>https://edrys-labs.github.io/blog/posts/025_mobile-lab-station/</guid><description>&lt;p&gt;Remote labs need physical infrastructure somewhere. At TU Bergakademie Freiberg, we built a custom station that hosts four embedded systems labs in a portable, automated setup—demonstrating that remote lab hardware can be practical, space-efficient, and intelligent.&lt;/p&gt;
+
+&lt;div class="component-content pagebody component"&gt;
+ &lt;h2 id="the-design-challenge" class="pagebody-header"&gt;
+ The Design Challenge
+ &lt;/h2&gt;
+&lt;/div&gt;&lt;p&gt;We needed hardware infrastructure that could:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Host multiple lab setups simultaneously&lt;/li&gt;
+&lt;li&gt;Be relocatable (different rooms, events, demonstrations)&lt;/li&gt;
+&lt;li&gt;Provide good camera angles for students watching remotely&lt;/li&gt;
+&lt;li&gt;Minimize power consumption when labs aren&amp;rsquo;t in use&lt;/li&gt;
+&lt;li&gt;Manage cables and connections cleanly&lt;/li&gt;
+&lt;li&gt;Support different Arduino and microcontroller configurations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The solution? A custom-built mobile station constructed from modular aluminum parts.&lt;/p&gt;</description></item><item><title>Remote Lab: Programming Calliope Mini with MicroPython</title><link>https://edrys-labs.github.io/blog/posts/024_remote-lab-calliope-mini/</link><pubDate>Wed, 12 Nov 2025 09:19:00 +0100</pubDate><guid>https://edrys-labs.github.io/blog/posts/024_remote-lab-calliope-mini/</guid><description>&lt;p&gt;Many students encounter embedded systems through complex C/C++ syntax before grasping fundamental concepts. Our &lt;strong&gt;Calliope Mini Lab&lt;/strong&gt; takes a different approach—using MicroPython to make sensor programming accessible while working with real educational hardware designed for learning.&lt;/p&gt;
+
+&lt;div class="component-content pagebody component"&gt;
+ &lt;h2 id="micropython-on-educational-hardware" class="pagebody-header"&gt;
+ MicroPython on Educational Hardware
+ &lt;/h2&gt;
+&lt;/div&gt;&lt;p&gt;The lab introduces embedded systems programming through the &lt;strong&gt;Calliope mini&lt;/strong&gt;, a microcontroller designed for education with built-in sensors and displays. Students learn to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Read environmental sensors (temperature, light intensity)&lt;/li&gt;
+&lt;li&gt;Control LED matrix displays (5×5) and RGB LEDs&lt;/li&gt;
+&lt;li&gt;Handle button inputs for user interaction&lt;/li&gt;
+&lt;li&gt;Use the serial interface for debugging and data logging&lt;/li&gt;
+&lt;li&gt;Structure MicroPython code for embedded applications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The practical application? An open-ended environmental monitoring system where students create their own applications—from simple temperature displays to light-based alarms or music boxes that respond to sensor input.&lt;/p&gt;</description></item><item><title>Remote Lab: Interrupt-Driven Stepper Motor Control</title><link>https://edrys-labs.github.io/blog/posts/023_remote-lab-interrupts-motor/</link><pubDate>Wed, 12 Nov 2025 09:10:00 +0100</pubDate><guid>https://edrys-labs.github.io/blog/posts/023_remote-lab-interrupts-motor/</guid><description>&lt;p&gt;Most embedded systems students learn about polling—constantly checking for events in a loop. But real-time systems need interrupts to respond instantly to external events. Our &lt;strong&gt;Interrupt Motor Control Lab&lt;/strong&gt; teaches interrupt programming by building a stepper motor controller with visual position feedback on a 24-LED ring.&lt;/p&gt;
+
+&lt;div class="component-content pagebody component"&gt;
+ &lt;h2 id="from-polling-to-interrupt-driven-design" class="pagebody-header"&gt;
+ From Polling to Interrupt-Driven Design
+ &lt;/h2&gt;
+&lt;/div&gt;&lt;p&gt;The lab teaches interrupt-based programming by having students replace inefficient polling with hardware interrupts. Students learn to:&lt;/p&gt;</description></item><item><title>Remote Lab: Building a 180° Distance Scanner with ADC</title><link>https://edrys-labs.github.io/blog/posts/022_remote-lab-adc-scanner/</link><pubDate>Wed, 12 Nov 2025 09:00:00 +0100</pubDate><guid>https://edrys-labs.github.io/blog/posts/022_remote-lab-adc-scanner/</guid><description>&lt;p&gt;Most students use &lt;code&gt;analogRead()&lt;/code&gt; without understanding what happens inside the microcontroller. Our &lt;strong&gt;ADC Distance Scanner Lab&lt;/strong&gt; removes that abstraction, challenging students to configure the Analog-Digital Converter directly while building a rotating sensor system that sweeps 180 degrees and maps the environment.&lt;/p&gt;
+
+&lt;div class="component-content pagebody component"&gt;
+ &lt;h2 id="from-arduino-shortcuts-to-register-control" class="pagebody-header"&gt;
+ From Arduino Shortcuts to Register Control
+ &lt;/h2&gt;
+&lt;/div&gt;&lt;p&gt;The lab teaches register-level ADC programming by having students replace Arduino&amp;rsquo;s convenient &lt;code&gt;analogRead()&lt;/code&gt; function with direct manipulation of AVR registers. Students learn to:&lt;/p&gt;</description></item><item><title>Remote Lab: Ultrasonic Distance Measurement with Arduino</title><link>https://edrys-labs.github.io/blog/posts/021_remote-lab-distance-measurement/</link><pubDate>Wed, 12 Nov 2025 08:27:00 +0100</pubDate><guid>https://edrys-labs.github.io/blog/posts/021_remote-lab-distance-measurement/</guid><description>&lt;p&gt;Learning embedded systems programming shouldn&amp;rsquo;t require physical access to hardware. Our &lt;strong&gt;Ultrasonic Distance Measurement Lab&lt;/strong&gt; provides real Arduino hardware accessible through a web browser, where students write code, upload to actual microcontrollers, and see real sensor measurements—all remotely.&lt;/p&gt;
+
+&lt;div class="component-content pagebody component"&gt;
+ &lt;h2 id="two-learning-tracks" class="pagebody-header"&gt;
+ Two Learning Tracks
+ &lt;/h2&gt;
+&lt;/div&gt;&lt;p&gt;The lab offers differentiated instruction through parallel tracks based on experience level:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Track A - Fundamentals&lt;/strong&gt;: Students implement low-level sensor control from scratch. They learn to:&lt;/p&gt;</description></item><item><title>WebSocket Fallback: Reliable Communication When WebRTC Fails</title><link>https://edrys-labs.github.io/blog/posts/020_websocket-fallback/</link><pubDate>Tue, 11 Nov 2025 08:00:00 +0100</pubDate><guid>https://edrys-labs.github.io/blog/posts/020_websocket-fallback/</guid><description>&lt;p&gt;Real-time collaboration is at the heart of Edrys-Lite, but what happens when network conditions prevent the ideal technology from working? Our &lt;strong&gt;WebSocket fallback&lt;/strong&gt; solution ensures that classrooms remain connected even in the most restrictive network environments.&lt;/p&gt;
+
+&lt;div class="component-content pagebody component"&gt;
+ &lt;h2 id="the-webrtc-challenge" class="pagebody-header"&gt;
+ The WebRTC Challenge
+ &lt;/h2&gt;
+&lt;/div&gt;&lt;p&gt;By default, Edrys-Lite uses WebRTC for peer-to-peer communication. WebRTC is excellent - it offers low latency, direct browser-to-browser connections, and efficient media streaming. But it has an Achilles heel: &lt;strong&gt;network restrictions&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Edrys.js: The Engine Behind the Edrys Modules</title><link>https://edrys-labs.github.io/blog/posts/019_edrys-js/</link><pubDate>Mon, 10 Nov 2025 14:45:00 +0100</pubDate><guid>https://edrys-labs.github.io/blog/posts/019_edrys-js/</guid><description>&lt;p&gt;Behind every Edrys-Lite module we&amp;rsquo;ve explored - from the &lt;a href="https://edrys-labs.github.io/blog/posts/009_module-editor/"&gt;Editor&lt;/a&gt; to the &lt;a href="https://edrys-labs.github.io/blog/posts/017_module-survey/"&gt;Survey Module&lt;/a&gt; - lies a powerful JavaScript library that makes it all work seamlessly: &lt;strong&gt;Edrys.js&lt;/strong&gt;. This library handles the complex parts of real-time collaboration so module developers can focus on creating great learning experiences.&lt;/p&gt;
+
+&lt;div class="component-content pagebody component"&gt;
+ &lt;h2 id="what-is-edrysjs" class="pagebody-header"&gt;
+ What is Edrys.js?
+ &lt;/h2&gt;
+&lt;/div&gt;&lt;p&gt;Edrys.js is the client library that connects modules to the Edrys-Lite classroom environment. It provides a simple API for:&lt;/p&gt;</description></item><item><title>The Code Logger Module: Understanding How Students Code</title><link>https://edrys-labs.github.io/blog/posts/018_module-code-logger/</link><pubDate>Mon, 10 Nov 2025 14:40:00 +0100</pubDate><guid>https://edrys-labs.github.io/blog/posts/018_module-code-logger/</guid><description>&lt;p&gt;Teaching programming means understanding not just what students produce, but how they work. Do they iterate quickly or get stuck? Do they experiment or follow patterns? When do they need help? The &lt;strong&gt;Code Logger Module&lt;/strong&gt; gives teachers visibility into student coding activity, enabling better support and deeper insights into learning patterns.&lt;/p&gt;
+
+&lt;div class="component-content pagebody component"&gt;
+ &lt;h2 id="what-is-the-code-logger-module" class="pagebody-header"&gt;
+ What is the Code Logger Module?
+ &lt;/h2&gt;
+&lt;/div&gt;&lt;p&gt;The Code Logger Module is a teaching tool that tracks code execution in your Edrys-Lite labs. When students run code in the &lt;a href="https://edrys-labs.github.io/blog/posts/009_module-editor/"&gt;Editor Module&lt;/a&gt;, the Code Logger quietly records it. Teachers can then view this history to understand student work patterns, identify struggles, and provide timely assistance.&lt;/p&gt;</description></item><item><title>The Survey Module: Gathering Insights from Your Students</title><link>https://edrys-labs.github.io/blog/posts/017_module-survey/</link><pubDate>Mon, 10 Nov 2025 14:35:00 +0100</pubDate><guid>https://edrys-labs.github.io/blog/posts/017_module-survey/</guid><description>&lt;p&gt;Teaching isn&amp;rsquo;t just about delivering content - it&amp;rsquo;s about understanding how students learn, what challenges they face, and whether your approach is working. The &lt;strong&gt;Survey Module&lt;/strong&gt; brings powerful feedback collection and analysis directly into your Edrys-Lite labs, helping you make data-driven decisions about your teaching.&lt;/p&gt;
+
+&lt;div class="component-content pagebody component"&gt;
+ &lt;h2 id="what-is-the-survey-module" class="pagebody-header"&gt;
+ What is the Survey Module?
+ &lt;/h2&gt;
+&lt;/div&gt;&lt;p&gt;The Survey Module transforms your Edrys-Lite lab into a feedback-gathering platform. Create custom surveys, collect student responses, and visualize results - all without leaving your classroom environment. Built on the powerful &lt;a href="https://surveyjs.io/"&gt;SurveyJS&lt;/a&gt; framework, it handles everything from simple polls to complex multi-page questionnaires.&lt;/p&gt;</description></item><item><title>The LiaScript Module: Interactive Learning Content Made Simple</title><link>https://edrys-labs.github.io/blog/posts/016_module-liascript/</link><pubDate>Mon, 10 Nov 2025 14:30:00 +0100</pubDate><guid>https://edrys-labs.github.io/blog/posts/016_module-liascript/</guid><description>&lt;p&gt;Documentation is important, but sometimes you need more than static text. You need interactivity, engagement, and rich multimedia experiences. The &lt;strong&gt;LiaScript Module&lt;/strong&gt; transforms plain Markdown into fully interactive learning courses with quizzes, animations, code execution, and more - no HTML, no JavaScript required.&lt;/p&gt;
+
+&lt;div class="component-content pagebody component"&gt;
+ &lt;h2 id="what-is-liascript" class="pagebody-header"&gt;
+ What is LiaScript?
+ &lt;/h2&gt;
+&lt;/div&gt;&lt;p&gt;&lt;a href="https://liascript.github.io"&gt;LiaScript&lt;/a&gt; is a powerful extension of Markdown designed specifically for creating interactive educational content. It lets educators write courses in simple text format while automatically getting features that usually require complex web development:&lt;/p&gt;</description></item><item><title>The MicroPython WebREPL Module: Wireless Microcontroller Control</title><link>https://edrys-labs.github.io/blog/posts/015_module-micropython-webrepl/</link><pubDate>Mon, 10 Nov 2025 14:25:00 +0100</pubDate><guid>https://edrys-labs.github.io/blog/posts/015_module-micropython-webrepl/</guid><description>&lt;p&gt;Arduino isn&amp;rsquo;t the only game in town. MicroPython brings the simplicity and power of Python to microcontrollers, opening embedded systems programming to students who already know Python or prefer its elegant syntax. The &lt;strong&gt;MicroPython WebREPL Module&lt;/strong&gt; makes working with MicroPython boards as simple as opening a browser.&lt;/p&gt;
+
+&lt;div class="component-content pagebody component"&gt;
+ &lt;h2 id="what-is-the-micropython-webrepl-module" class="pagebody-header"&gt;
+ What is the MicroPython WebREPL Module?
+ &lt;/h2&gt;
+&lt;/div&gt;&lt;p&gt;The MicroPython WebREPL Module provides wireless access to MicroPython-enabled boards like ESP8266 and ESP32. Students can write Python code, execute it on the microcontroller, and see results - all through a web-based interface that connects over WiFi.&lt;/p&gt;</description></item><item><title>The BlocklyDuino Module: Visual Programming for Everyone</title><link>https://edrys-labs.github.io/blog/posts/014_module-blockly-duino/</link><pubDate>Mon, 10 Nov 2025 14:20:30 +0100</pubDate><guid>https://edrys-labs.github.io/blog/posts/014_module-blockly-duino/</guid><description>&lt;p&gt;Not everyone learns programming the same way. For some students, typing code syntax is a barrier to understanding the concepts behind it. The &lt;strong&gt;BlocklyDuino Module&lt;/strong&gt; removes that barrier by letting students program Arduino using visual blocks they can see, touch, and rearrange.&lt;/p&gt;
+
+&lt;div class="component-content pagebody component"&gt;
+ &lt;h2 id="what-is-blocklyduino" class="pagebody-header"&gt;
+ What is BlocklyDuino?
+ &lt;/h2&gt;
+&lt;/div&gt;&lt;p&gt;The BlocklyDuino Module brings Google&amp;rsquo;s Blockly visual programming environment to your Edrys-Lite labs, specifically tailored for Arduino development. Instead of writing text-based code, students drag and drop colorful blocks that snap together like puzzle pieces. Each block represents a programming concept - loops, conditions, sensor readings, LED control - and they only fit together in ways that make sense.&lt;/p&gt;</description></item><item><title>The AVR8js Simulator: Arduino Without Hardware</title><link>https://edrys-labs.github.io/blog/posts/013_module-avr8js/</link><pubDate>Mon, 10 Nov 2025 14:15:45 +0100</pubDate><guid>https://edrys-labs.github.io/blog/posts/013_module-avr8js/</guid><description>&lt;p&gt;Learning Arduino programming shouldn&amp;rsquo;t require everyone to have physical hardware. The &lt;strong&gt;AVR8js Simulator Module&lt;/strong&gt; brings Arduino development directly to your browser, letting students write, test, and debug code with virtual components before ever touching real hardware.&lt;/p&gt;
+
+&lt;div class="component-content pagebody component"&gt;
+ &lt;h2 id="what-is-the-avr8js-simulator" class="pagebody-header"&gt;
+ What is the AVR8js Simulator?
+ &lt;/h2&gt;
+&lt;/div&gt;&lt;p&gt;The AVR8js Simulator Module is a full Arduino emulator that runs in your browser. It simulates the actual microcontroller chip (AVR8), so your code behaves exactly as it would on real hardware. Students can see LEDs light up, buttons respond, and components interact - all in a safe, virtual environment.&lt;/p&gt;</description></item><item><title>The Markdown Module: Rich Documentation for Your Labs</title><link>https://edrys-labs.github.io/blog/posts/012_module-markdown-it/</link><pubDate>Mon, 10 Nov 2025 14:10:30 +0100</pubDate><guid>https://edrys-labs.github.io/blog/posts/012_module-markdown-it/</guid><description>&lt;p&gt;Every great remote lab needs clear instructions. Students need to understand what they&amp;rsquo;re doing, why they&amp;rsquo;re doing it, and how to interpret their results. The &lt;strong&gt;Markdown-it Module&lt;/strong&gt; transforms simple text into rich, interactive documentation that makes your labs easier to follow and more engaging.&lt;/p&gt;
+
+&lt;div class="component-content pagebody component"&gt;
+ &lt;h2 id="what-is-the-markdown-it-module" class="pagebody-header"&gt;
+ What is the Markdown-it Module?
+ &lt;/h2&gt;
+&lt;/div&gt;&lt;p&gt;The Markdown-it Module brings powerful documentation capabilities to your Edrys-Lite labs. Write your lab instructions, explanations, and educational content in simple Markdown, and the module renders it beautifully with support for mathematical formulas, diagrams, embedded videos, and more.&lt;/p&gt;</description></item><item><title>The Streaming Module: Delivering Live Video to Remote Labs</title><link>https://edrys-labs.github.io/blog/posts/011_module-streaming/</link><pubDate>Mon, 10 Nov 2025 14:05:12 +0100</pubDate><guid>https://edrys-labs.github.io/blog/posts/011_module-streaming/</guid><description>&lt;p&gt;Remote labs need more than just code editors and terminals. Sometimes, students need to &lt;strong&gt;see&lt;/strong&gt; what&amp;rsquo;s happening - whether it&amp;rsquo;s a hardware experiment, a physical demonstration, or lab equipment in action. That&amp;rsquo;s where the &lt;strong&gt;Streaming Module&lt;/strong&gt; comes in.&lt;/p&gt;
+
+&lt;div class="component-content pagebody component"&gt;
+ &lt;h2 id="what-is-the-streaming-module" class="pagebody-header"&gt;
+ What is the Streaming Module?
+ &lt;/h2&gt;
+&lt;/div&gt;&lt;p&gt;The Streaming Module transforms your webcam into a live broadcast channel for your Edrys-Lite lab. As an instructor or lab station, you can share real-time video and audio with all connected students, letting them observe experiments, demonstrations, and physical processes as they happen.&lt;/p&gt;</description></item><item><title>The Terminal Module: Bringing Command-Line Power to Your Browser</title><link>https://edrys-labs.github.io/blog/posts/010_module-pyxtermjs/</link><pubDate>Mon, 10 Nov 2025 14:01:42 +0100</pubDate><guid>https://edrys-labs.github.io/blog/posts/010_module-pyxtermjs/</guid><description>&lt;p&gt;Remember when we talked about the &lt;a href="https://edrys-labs.github.io/blog/posts/009_module-editor/"&gt;Editor Module&lt;/a&gt;? Now it&amp;rsquo;s time to meet its perfect companion: the &lt;strong&gt;PyxTerm.js Terminal Module&lt;/strong&gt;. Together, they create a complete development environment right in your browser, no installation needed.&lt;/p&gt;
+
+&lt;div class="component-content pagebody component"&gt;
+ &lt;h2 id="what-is-the-pyxtermjs-module" class="pagebody-header"&gt;
+ What is the PyxTerm.js Module?
+ &lt;/h2&gt;
+&lt;/div&gt;&lt;p&gt;The PyxTerm.js Module brings a fully functional terminal to your Edrys-Lite labs. Students can execute code, run commands, compile programs, and see real-time output - all within their browser. It&amp;rsquo;s like having a command-line interface accessible to everyone in your class, regardless of their operating system or local setup.&lt;/p&gt;</description></item><item><title>The Editor Module: Your Gateway to Interactive Coding in Edrys-Lite</title><link>https://edrys-labs.github.io/blog/posts/009_module-editor/</link><pubDate>Mon, 10 Nov 2025 13:38:26 +0100</pubDate><guid>https://edrys-labs.github.io/blog/posts/009_module-editor/</guid><description>&lt;p&gt;Writing code together in real-time doesn&amp;rsquo;t have to be complicated. The &lt;strong&gt;Editor Module&lt;/strong&gt; for Edrys-Lite brings the power of collaborative coding directly to your browser, making it easy for students and educators to work on code simultaneously without any installation or setup hassles.&lt;/p&gt;
+
+&lt;div class="component-content pagebody component"&gt;
+ &lt;h2 id="what-is-the-editor-module" class="pagebody-header"&gt;
+ What is the Editor Module?
+ &lt;/h2&gt;
+&lt;/div&gt;&lt;p&gt;The Editor Module is a flexible code editor that integrates seamlessly into your Edrys-Lite labs. Think of it as your classroom&amp;rsquo;s shared coding workspace - multiple students can type, edit, and see each other&amp;rsquo;s changes in real-time, just like working together on a shared document.&lt;/p&gt;</description></item><item><title>Presentation &amp; Workshop at the STE 2025 in Chile</title><link>https://edrys-labs.github.io/blog/posts/002_presentation-and-workshop-at-the-ste-2025/</link><pubDate>Wed, 09 Apr 2025 00:00:00 +0200</pubDate><guid>https://edrys-labs.github.io/blog/posts/002_presentation-and-workshop-at-the-ste-2025/</guid><description>&lt;div class="component-content pagebody component"&gt;
+ &lt;h1 id="presentation" class="pagebody-header"&gt;
  Presentation
- &lt;/h1>
-&lt;/div>
-&lt;div class="component-content pagebody component">
- &lt;h2 id="edrys-lite--shareable-peer-to-peer-remote-labs--using-only-browser-technologies" class="pagebody-header">
+ &lt;/h1&gt;
+&lt;/div&gt;
+&lt;div class="component-content pagebody component"&gt;
+ &lt;h2 id="edrys-lite--shareable-peer-to-peer-remote-labs--using-only-browser-technologies" class="pagebody-header"&gt;
  Edrys-Lite – Shareable Peer-to-Peer Remote Labs – Using Only Browser Technologies
- &lt;/h2>
-&lt;/div>&lt;p>&lt;strong>Date:&lt;/strong> Thursday, 10/Apr/2025 &lt;br>
-&lt;strong>Time:&lt;/strong> 9:36am - 9:54am &lt;br>
-&lt;strong>Location:&lt;/strong> V213 Classroom&lt;/p>
-&lt;p>This paper presents a novel approach to creating shareable, peer-to-peer remote labs using solely browser technologies, eliminating the need for dedicated servers. Modern web browsers, equipped with APIs for hardware interaction and real-time peer-to-peer capabilities, enable educators to construct labs that operate entirely through decentralized connectivity. Utilizing the Edrys-Lite application, a lightweight reimplementation of the original Edrys classroom system, remote labs can be easily configured using human-readable formats like JSON or YAML and shared through simple URLs. This serverless model leverages WebRTC and WebTorrent for user connectivity, while Yjs CRDTs ensure real-time synchronization and conflict resolution. The result is a scalable, cost-effective solution for running open educational resources as remote labs, providing accessible, reusable, and modifiable labs stored openly on GitHub. Testing has demonstrated successful application across various fields, from Arduino programming to large-scale chemical simulations. This approach empowers educators to deploy lab environments swiftly, enhancing accessibility and reducing setup complexity.&lt;/p></description></item><item><title>Documentation in LiaScript and Markdown Format</title><link>https://edrys-labs.github.io/blog/posts/001_documentation/</link><pubDate>Mon, 07 Apr 2025 00:00:00 +0200</pubDate><guid>https://edrys-labs.github.io/blog/posts/001_documentation/</guid><description>&lt;p>The official edrys-Lite documentation is now available. It provides a comprehensive overview of the edrys-Lite platform, including its features, installation instructions, and usage guidelines. The documentation is designed to help users get started with edrys-Lite quickly and easily.&lt;/p>
-&lt;p>It covers everything from setting up the environment to creating and managing remote labs. The documentation is available online and can be accessed at any time.&lt;/p>
-&lt;ul>
-&lt;li>GitHub: &lt;a href="https://github.com/edrys-labs/documentation">https://github.com/edrys-labs/documentation&lt;/a>&lt;/li>
-&lt;li>LiaScript: &lt;a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/edrys-labs/documentation/refs/heads/main/README.md#1">https://liascript.github.io/course/?https://raw.githubusercontent.com/edrys-labs/documentation/refs/heads/main/README.md#1&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>To see the video animation switch to &amp;ldquo;Presentation&amp;rdquo; or &amp;ldquo;Slides&amp;rdquo; mode in the top right corner of the iframe.&lt;/p></description></item><item><title>Imprint</title><link>https://edrys-labs.github.io/blog/imprint/</link><pubDate>Mon, 07 Apr 2025 00:00:00 +0200</pubDate><guid>https://edrys-labs.github.io/blog/imprint/</guid><description>&lt;div class="component-content pagebody component">
- &lt;h4 id="publisher" class="pagebody-header">
+ &lt;/h2&gt;
+&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; Thursday, 10/Apr/2025 &lt;br&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 9:36am - 9:54am &lt;br&gt;
+&lt;strong&gt;Location:&lt;/strong&gt; V213 Classroom&lt;/p&gt;
+&lt;p&gt;This paper presents a novel approach to creating shareable, peer-to-peer remote labs using solely browser technologies, eliminating the need for dedicated servers. Modern web browsers, equipped with APIs for hardware interaction and real-time peer-to-peer capabilities, enable educators to construct labs that operate entirely through decentralized connectivity. Utilizing the Edrys-Lite application, a lightweight reimplementation of the original Edrys classroom system, remote labs can be easily configured using human-readable formats like JSON or YAML and shared through simple URLs. This serverless model leverages WebRTC and WebTorrent for user connectivity, while Yjs CRDTs ensure real-time synchronization and conflict resolution. The result is a scalable, cost-effective solution for running open educational resources as remote labs, providing accessible, reusable, and modifiable labs stored openly on GitHub. Testing has demonstrated successful application across various fields, from Arduino programming to large-scale chemical simulations. This approach empowers educators to deploy lab environments swiftly, enhancing accessibility and reducing setup complexity.&lt;/p&gt;</description></item><item><title>Documentation in LiaScript and Markdown Format</title><link>https://edrys-labs.github.io/blog/posts/001_documentation/</link><pubDate>Mon, 07 Apr 2025 00:00:00 +0200</pubDate><guid>https://edrys-labs.github.io/blog/posts/001_documentation/</guid><description>&lt;p&gt;The official edrys-Lite documentation is now available. It provides a comprehensive overview of the edrys-Lite platform, including its features, installation instructions, and usage guidelines. The documentation is designed to help users get started with edrys-Lite quickly and easily.&lt;/p&gt;
+&lt;p&gt;It covers everything from setting up the environment to creating and managing remote labs. The documentation is available online and can be accessed at any time.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/edrys-labs/documentation"&gt;https://github.com/edrys-labs/documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;LiaScript: &lt;a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/edrys-labs/documentation/refs/heads/main/README.md#1"&gt;https://liascript.github.io/course/?https://raw.githubusercontent.com/edrys-labs/documentation/refs/heads/main/README.md#1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;To see the video animation switch to &amp;ldquo;Presentation&amp;rdquo; or &amp;ldquo;Slides&amp;rdquo; mode in the top right corner of the iframe.&lt;/p&gt;</description></item><item><title>Imprint</title><link>https://edrys-labs.github.io/blog/imprint/</link><pubDate>Mon, 07 Apr 2025 00:00:00 +0200</pubDate><guid>https://edrys-labs.github.io/blog/imprint/</guid><description>&lt;div class="component-content pagebody component"&gt;
+ &lt;h4 id="publisher" class="pagebody-header"&gt;
  Publisher
- &lt;/h4>
-&lt;/div>&lt;p>Technische Universität Bergakademie Freiberg&lt;/p>
-&lt;p>Akademiestraße 6&lt;br>
-09599 Freiberg, Germany&lt;br>
-Phone: +49 3731 39-0&lt;br>
-Fax: +49 3731 39-3323&lt;br>
-Email: &lt;a href="mailto:universitaet@tu-freiberg.de">universitaet@tu-freiberg.de&lt;/a>&lt;/p>
-&lt;p>Website: &lt;a href="http://tu-freiberg.de">http://tu-freiberg.de&lt;/a>&lt;/p>
+ &lt;/h4&gt;
+&lt;/div&gt;&lt;p&gt;Technische Universität Bergakademie Freiberg&lt;/p&gt;
+&lt;p&gt;Akademiestraße 6&lt;br&gt;
+09599 Freiberg, Germany&lt;br&gt;
+Phone: +49 3731 39-0&lt;br&gt;
+Fax: +49 3731 39-3323&lt;br&gt;
+Email: &lt;a href="mailto:universitaet@tu-freiberg.de"&gt;universitaet@tu-freiberg.de&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Website: &lt;a href="https://tu-freiberg.de"&gt;https://tu-freiberg.de&lt;/a&gt;&lt;/p&gt;
 
-&lt;div class="component-content pagebody component">
- &lt;h4 id="legal-form-and-representation" class="pagebody-header">
+&lt;div class="component-content pagebody component"&gt;
+ &lt;h4 id="legal-form-and-representation" class="pagebody-header"&gt;
  Legal Form and Representation
- &lt;/h4>
-&lt;/div>&lt;p>Technische Universität Bergakademie Freiberg is a public corporation.
-It is legally represented by the current Rector, Prof. Dr. Klaus-Dieter Barbknecht.&lt;/p>
+ &lt;/h4&gt;
+&lt;/div&gt;&lt;p&gt;Technische Universität Bergakademie Freiberg is a public corporation.
+It is legally represented by the current Rector, Prof. Dr. Jutta Emes.&lt;/p&gt;
 
-&lt;div class="component-content pagebody component">
- &lt;h4 id="supervisory-authority" class="pagebody-header">
+&lt;div class="component-content pagebody component"&gt;
+ &lt;h4 id="supervisory-authority" class="pagebody-header"&gt;
  Supervisory Authority
- &lt;/h4>
-&lt;/div>&lt;p>Saxon State Ministry for Science and the Arts&lt;br>
-Wigardstraße 17&lt;br>
-01097 Dresden, Germany&lt;/p></description></item><item><title>CrossLab meets "Nacht der Wissenschaft und Wirtschaft" at TUBAF</title><link>https://edrys-labs.github.io/blog/posts/008_nacht-der-wissenschaft-und-wirtschaft/</link><pubDate>Tue, 30 Jul 2024 00:00:00 +0200</pubDate><guid>https://edrys-labs.github.io/blog/posts/008_nacht-der-wissenschaft-und-wirtschaft/</guid><description>&lt;p>The 9th Night of Science and Economy in Freiberg was a truly wonderful opportunity to present the results of the CrossLab project to the general public. At the opening of the ROBOLAB in the heart of Freiberg, the CrossLab team at TUBAF were delighted to have the chance to inspire young and old for computer science and give visitors the chance to get to know some remote computer science laboratories on site.&lt;/p></description></item><item><title>Students Innovate with edrys-Lite to Design Remote Labs</title><link>https://edrys-labs.github.io/blog/posts/007_students-innovate-with-edrys-lite-to-design-remote-labs/</link><pubDate>Tue, 30 Jul 2024 00:00:00 +0200</pubDate><guid>https://edrys-labs.github.io/blog/posts/007_students-innovate-with-edrys-lite-to-design-remote-labs/</guid><description>&lt;p>Participants in the &amp;ldquo;Software Development for Embedded Systems&amp;rdquo; lecture recently undertook an ambitious project: creating five remote labs as open educational resources using edrys-Lite. This integrated practical course challenged students not only to tackle the technical aspects but also to craft comprehensive learning experiences. Each lab solution includes detailed descriptions of learning objectives, introductory quizzes, and task descriptions to ensure a thorough understanding.&lt;/p>
-&lt;p>
+ &lt;/h4&gt;
+&lt;/div&gt;&lt;p&gt;Saxon State Ministry for Science and the Arts&lt;br&gt;
+Wigardstraße 17&lt;br&gt;
+01097 Dresden, Germany&lt;/p&gt;</description></item><item><title>CrossLab meets "Nacht der Wissenschaft und Wirtschaft" at TUBAF</title><link>https://edrys-labs.github.io/blog/posts/008_nacht-der-wissenschaft-und-wirtschaft/</link><pubDate>Tue, 30 Jul 2024 00:00:00 +0200</pubDate><guid>https://edrys-labs.github.io/blog/posts/008_nacht-der-wissenschaft-und-wirtschaft/</guid><description>&lt;p&gt;The 9th Night of Science and Economy in Freiberg was a truly wonderful opportunity to present the results of the CrossLab project to the general public. At the opening of the ROBOLAB in the heart of Freiberg, the CrossLab team at TUBAF were delighted to have the chance to inspire young and old for computer science and give visitors the chance to get to know some remote computer science laboratories on site.&lt;/p&gt;</description></item><item><title>Students Innovate with edrys-Lite to Design Remote Labs</title><link>https://edrys-labs.github.io/blog/posts/007_students-innovate-with-edrys-lite-to-design-remote-labs/</link><pubDate>Tue, 30 Jul 2024 00:00:00 +0200</pubDate><guid>https://edrys-labs.github.io/blog/posts/007_students-innovate-with-edrys-lite-to-design-remote-labs/</guid><description>&lt;p&gt;Participants in the &amp;ldquo;Software Development for Embedded Systems&amp;rdquo; lecture recently undertook an ambitious project: creating five remote labs as open educational resources using edrys-Lite. This integrated practical course challenged students not only to tackle the technical aspects but also to craft comprehensive learning experiences. Each lab solution includes detailed descriptions of learning objectives, introductory quizzes, and task descriptions to ensure a thorough understanding.&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -52,23 +172,23 @@ Wigardstraße 17&lt;br>
 
 
 
-&lt;figure class="image component image-fullbleed body-copy-wide nr-scroll-animation nr-scroll-animation--on image-big"> &lt;div class="component-content">
- &lt;div class="image-sharesheet">
- &lt;div class="image image-load image-asset image-8ec246caaa986bb16e0cb83f8d7cfe57" id="lht8ec246caaa986bb16e0cb83f8d7cfe57">
- &lt;picture class="picture">
- &lt;img class="picture-image" data-src="https://edrys-labs.github.io/blog/static/img/posts/students-innovate-with-edrys-lite-to-design-remote-labs/cover.jpg" alt="Sharing an embedded systems lab only via the browser" />
- &lt;/picture>
- &lt;/div>
- &lt;/div>
- &lt;div class="image-description">
- &lt;div class="image-caption">
+&lt;figure class="image component image-fullbleed body-copy-wide nr-scroll-animation nr-scroll-animation--on image-big"&gt; &lt;div class="component-content"&gt;
+ &lt;div class="image-sharesheet"&gt;
+ &lt;div class="image image-load image-asset image-8ec246caaa986bb16e0cb83f8d7cfe57" id="lht8ec246caaa986bb16e0cb83f8d7cfe57"&gt;
+ &lt;picture class="picture"&gt;
+ &lt;img class="picture-image" data-src="https://edrys-labs.github.io/blog/static/img/posts/students-innovate-with-edrys-lite-to-design-remote-labs/cover.jpg" alt="Sharing an embedded systems lab only via the browser" /&gt;
+ &lt;/picture&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="image-description"&gt;
+ &lt;div class="image-caption"&gt;
  Sharing an embedded systems lab only via the browser
- &lt;/div>
- &lt;/div>
- &lt;/div>
-&lt;/figure>
-&lt;/p></description></item><item><title>Deploying RemoteLabs in Seconds with Edrys-Lite</title><link>https://edrys-labs.github.io/blog/posts/005_deploying-remotelabs-in-seconds-with-edrys-lite/</link><pubDate>Fri, 05 Jul 2024 00:00:00 +0200</pubDate><guid>https://edrys-labs.github.io/blog/posts/005_deploying-remotelabs-in-seconds-with-edrys-lite/</guid><description>&lt;p>Edrys-Lite is a browser-based approach to remote labs that simplifies the process of creating and sharing educational lab environments. This innovative tool leverages two key technologies: WebRTC for direct peer-to-peer connections between browsers, and CRDT (Conflict-free Replicated Data Types) for real-time data synchronization. Additionally, Edrys-Lite replicates the modular approach and reusability of components from Edrys, its server-based predecessor, ensuring a seamless and efficient lab deployment experience.&lt;/p>
-&lt;div class="component-content component">
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/figure&gt;
+&lt;/p&gt;</description></item><item><title>Deploying RemoteLabs in Seconds with Edrys-Lite</title><link>https://edrys-labs.github.io/blog/posts/005_deploying-remotelabs-in-seconds-with-edrys-lite/</link><pubDate>Fri, 05 Jul 2024 00:00:00 +0200</pubDate><guid>https://edrys-labs.github.io/blog/posts/005_deploying-remotelabs-in-seconds-with-edrys-lite/</guid><description>&lt;p&gt;Edrys-Lite is a browser-based approach to remote labs that simplifies the process of creating and sharing educational lab environments. This innovative tool leverages two key technologies: WebRTC for direct peer-to-peer connections between browsers, and CRDT (Conflict-free Replicated Data Types) for real-time data synchronization. Additionally, Edrys-Lite replicates the modular approach and reusability of components from Edrys, its server-based predecessor, ensuring a seamless and efficient lab deployment experience.&lt;/p&gt;
+&lt;div class="component-content component"&gt;
  &lt;iframe
  style="width: 100%; aspect-ratio: 16 / 9"
  src="https://www.youtube-nocookie.com/embed/6ZjGHorc2ds"
@@ -76,16 +196,16 @@ Wigardstraße 17&lt;br>
  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
  referrerpolicy="strict-origin-when-cross-origin"
  allowfullscreen
- >&lt;/iframe>
-&lt;/div>
+ &gt;&lt;/iframe&gt;
+&lt;/div&gt;
 
 
-&lt;div class="component-content pagebody component">
- &lt;h2 id="key-features-of-edrys-lite" class="pagebody-header">
+&lt;div class="component-content pagebody component"&gt;
+ &lt;h2 id="key-features-of-edrys-lite" class="pagebody-header"&gt;
  Key Features of Edrys-Lite
- &lt;/h2>
-&lt;/div>&lt;p>Project-site: &lt;a href="https://edrys-labs.github.io">https://edrys-labs.github.io&lt;/a>&lt;/p></description></item><item><title>University:Future Festival 2024</title><link>https://edrys-labs.github.io/blog/posts/004_university-future-festival-2024/</link><pubDate>Wed, 05 Jun 2024 00:00:00 +0200</pubDate><guid>https://edrys-labs.github.io/blog/posts/004_university-future-festival-2024/</guid><description>&lt;p>Is CrossLab a Tale of Tomorrow? The team from Freiberg presented the visions of our project at the University:Future Festival 2024 and discussed the potential contributions of digital laboratories for curent challenging questions of learning processes.&lt;/p>
-&lt;style>
+ &lt;/h2&gt;
+&lt;/div&gt;&lt;p&gt;Project-site: &lt;a href="https://edrys-labs.github.io"&gt;https://edrys-labs.github.io&lt;/a&gt;&lt;/p&gt;</description></item><item><title>University:Future Festival 2024</title><link>https://edrys-labs.github.io/blog/posts/004_university-future-festival-2024/</link><pubDate>Wed, 05 Jun 2024 00:00:00 +0200</pubDate><guid>https://edrys-labs.github.io/blog/posts/004_university-future-festival-2024/</guid><description>&lt;p&gt;Is CrossLab a Tale of Tomorrow? The team from Freiberg presented the visions of our project at the University:Future Festival 2024 and discussed the potential contributions of digital laboratories for curent challenging questions of learning processes.&lt;/p&gt;
+&lt;style&gt;
  .image-gallery {
  display: flex;
  flex-wrap: wrap;
@@ -115,55 +235,55 @@ Wigardstraße 17&lt;br>
  top: -42px;
  right: 8px;
  }
-&lt;/style>
+&lt;/style&gt;
 
 
-&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"&gt;
 
 
-&lt;div class="component-content component">
-&lt;ul class="image-gallery">
-&lt;li>
- &lt;a href="https://edrys-labs.github.io/blog/img/posts/university-future-festival-24/1_hu_6a3884bcb85e2e17.jpg" data-lightbox="gallery" data-title="1" class="lightbox-image">
- &lt;img src="https://edrys-labs.github.io/blog/img/posts/university-future-festival-24/1_hu_8b822f58bd5c1caa.jpg" alt="1" title="1">
- &lt;/a>
- &lt;/li>
-&lt;li>
- &lt;a href="https://edrys-labs.github.io/blog/img/posts/university-future-festival-24/2_hu_4ddb455447a80708.jpg" data-lightbox="gallery" data-title="2" class="lightbox-image">
- &lt;img src="https://edrys-labs.github.io/blog/img/posts/university-future-festival-24/2_hu_741b483a6c2e505.jpg" alt="2" title="2">
- &lt;/a>
- &lt;/li>
-&lt;li>
- &lt;a href="https://edrys-labs.github.io/blog/img/posts/university-future-festival-24/cover_hu_35b33f786752782d.jpg" data-lightbox="gallery" data-title="cover" class="lightbox-image">
- &lt;img src="https://edrys-labs.github.io/blog/img/posts/university-future-festival-24/cover_hu_11d2af9ec809cf07.jpg" alt="cover" title="cover">
- &lt;/a>
- &lt;/li>
+&lt;div class="component-content component"&gt;
+&lt;ul class="image-gallery"&gt;
+&lt;li&gt;
+ &lt;a href="https://edrys-labs.github.io/blog/img/posts/university-future-festival-24/1_hu_6a3884bcb85e2e17.jpg" data-lightbox="gallery" data-title="1" class="lightbox-image"&gt;
+ &lt;img src="https://edrys-labs.github.io/blog/img/posts/university-future-festival-24/1_hu_8b822f58bd5c1caa.jpg" alt="1" title="1"&gt;
+ &lt;/a&gt;
+ &lt;/li&gt;
+&lt;li&gt;
+ &lt;a href="https://edrys-labs.github.io/blog/img/posts/university-future-festival-24/2_hu_4ddb455447a80708.jpg" data-lightbox="gallery" data-title="2" class="lightbox-image"&gt;
+ &lt;img src="https://edrys-labs.github.io/blog/img/posts/university-future-festival-24/2_hu_741b483a6c2e505.jpg" alt="2" title="2"&gt;
+ &lt;/a&gt;
+ &lt;/li&gt;
+&lt;li&gt;
+ &lt;a href="https://edrys-labs.github.io/blog/img/posts/university-future-festival-24/cover_hu_35b33f786752782d.jpg" data-lightbox="gallery" data-title="cover" class="lightbox-image"&gt;
+ &lt;img src="https://edrys-labs.github.io/blog/img/posts/university-future-festival-24/cover_hu_11d2af9ec809cf07.jpg" alt="cover" title="cover"&gt;
+ &lt;/a&gt;
+ &lt;/li&gt;
 
-&lt;/ul>
-&lt;/div>
+&lt;/ul&gt;
+&lt;/div&gt;
 
-&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js">&lt;/script>
-&lt;script>
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
  lightbox.option({
  'resizeDuration': 200,
  'wrapAround': true,
  'albumLabel': "Image %1 of %2"
  });
-&lt;/script>
-&lt;p>André Dietrich and Sebastian Zug illustrated the features and capabilities of serverless and adaptable digital laboratories in his presentation RemoteLabs as OER - The next evolutionary step. After a short introduction, he discussed the exemplary implementation of a virtual environment for programming as well as an Arduino-based remote installation. The presentation can be found here:&lt;/p></description></item><item><title>CrossLab at eLearning Africa 2024</title><link>https://edrys-labs.github.io/blog/posts/003_elearning-africa/</link><pubDate>Thu, 30 May 2024 00:00:00 +0200</pubDate><guid>https://edrys-labs.github.io/blog/posts/003_elearning-africa/</guid><description>&lt;p>We are delighted to share that our research project participated in eLearning Africa from 29 to 31 May 2024. During this 3-day conference, we hosted an engaging demonstration and workshop on the topic of &amp;ldquo;Creating Sustainable and Extendable Open Educational Resources (OER) as an Interactive Classroom.&amp;rdquo; A key component of this session was the edrys-Lite, which has been further developed within the CrossLab framework. The event provided an excellent opportunity to showcase our latest advancements and collaborate with participants to shape the future of interactive educational resources. We are grateful for the opportunity to demonstrate how edrys-Lite contributes to the creation of sustainable and extendable OER.&lt;/p></description></item><item><title>Peer2Peer Labs: Experimenting on Arduino</title><link>https://edrys-labs.github.io/blog/posts/006_peer2peer-labs-experimenting-on-arduino/</link><pubDate>Fri, 24 May 2024 00:00:00 +0200</pubDate><guid>https://edrys-labs.github.io/blog/posts/006_peer2peer-labs-experimenting-on-arduino/</guid><description>&lt;p>EIn this example, the Arduino is also hosting a website/dashboard to control it and any kind of experiment it performs. Everything that is required is a Chrome based browser with WebSerial, works on Linux and should also work on Windows or Mac.&lt;/p>
-&lt;p>Edrys-Lite is a RemoteLab Sharing environment that runs entirely within the browser, where others can connect via WebRTC (simple peer to peer connection)&amp;hellip;&lt;/p>
-&lt;p>&lt;a href="https://edrys-labs.github.io">https://edrys-labs.github.io&lt;/a>&lt;/p>
-&lt;p>you can find the experiment at:&lt;/p></description></item><item><title>Showcase</title><link>https://edrys-labs.github.io/blog/showcase/</link><pubDate>Mon, 11 Mar 2019 00:00:00 +0100</pubDate><guid>https://edrys-labs.github.io/blog/showcase/</guid><description>&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p></description></item><item><title>About edrys-Lite</title><link>https://edrys-labs.github.io/blog/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://edrys-labs.github.io/blog/about/</guid><description>&lt;p>Welcome to the edrys-Lite blog! This is where we share our journey of creating a lighter, more accessible approach to classroom technology.&lt;/p>
+&lt;/script&gt;
+&lt;p&gt;André Dietrich and Sebastian Zug illustrated the features and capabilities of serverless and adaptable digital laboratories in his presentation RemoteLabs as OER - The next evolutionary step. After a short introduction, he discussed the exemplary implementation of a virtual environment for programming as well as an Arduino-based remote installation. The presentation can be found here:&lt;/p&gt;</description></item><item><title>CrossLab at eLearning Africa 2024</title><link>https://edrys-labs.github.io/blog/posts/003_elearning-africa/</link><pubDate>Thu, 30 May 2024 00:00:00 +0200</pubDate><guid>https://edrys-labs.github.io/blog/posts/003_elearning-africa/</guid><description>&lt;p&gt;We are delighted to share that our research project participated in eLearning Africa from 29 to 31 May 2024. During this 3-day conference, we hosted an engaging demonstration and workshop on the topic of &amp;ldquo;Creating Sustainable and Extendable Open Educational Resources (OER) as an Interactive Classroom.&amp;rdquo; A key component of this session was the edrys-Lite, which has been further developed within the CrossLab framework. The event provided an excellent opportunity to showcase our latest advancements and collaborate with participants to shape the future of interactive educational resources. We are grateful for the opportunity to demonstrate how edrys-Lite contributes to the creation of sustainable and extendable OER.&lt;/p&gt;</description></item><item><title>Peer2Peer Labs: Experimenting on Arduino</title><link>https://edrys-labs.github.io/blog/posts/006_peer2peer-labs-experimenting-on-arduino/</link><pubDate>Fri, 24 May 2024 00:00:00 +0200</pubDate><guid>https://edrys-labs.github.io/blog/posts/006_peer2peer-labs-experimenting-on-arduino/</guid><description>&lt;p&gt;EIn this example, the Arduino is also hosting a website/dashboard to control it and any kind of experiment it performs. Everything that is required is a Chrome based browser with WebSerial, works on Linux and should also work on Windows or Mac.&lt;/p&gt;
+&lt;p&gt;Edrys-Lite is a RemoteLab Sharing environment that runs entirely within the browser, where others can connect via WebRTC (simple peer to peer connection)&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://edrys-labs.github.io"&gt;https://edrys-labs.github.io&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;you can find the experiment at:&lt;/p&gt;</description></item><item><title>Showcase</title><link>https://edrys-labs.github.io/blog/showcase/</link><pubDate>Mon, 11 Mar 2019 00:00:00 +0100</pubDate><guid>https://edrys-labs.github.io/blog/showcase/</guid><description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description></item><item><title>About edrys-Lite</title><link>https://edrys-labs.github.io/blog/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://edrys-labs.github.io/blog/about/</guid><description>&lt;p&gt;Welcome to the edrys-Lite blog! This is where we share our journey of creating a lighter, more accessible approach to classroom technology.&lt;/p&gt;
 
-&lt;div class="component-content pagebody component">
- &lt;h2 id="what-is-edrys-lite" class="pagebody-header">
+&lt;div class="component-content pagebody component"&gt;
+ &lt;h2 id="what-is-edrys-lite" class="pagebody-header"&gt;
  What is edrys-Lite?
- &lt;/h2>
-&lt;/div>&lt;p>edrys-Lite is an open-source educational platform that brings simplicity back to digital classrooms. Born from the belief that educational technology should empower rather than overwhelm, we&amp;rsquo;ve created a streamlined system that requires:&lt;/p>
-&lt;ul>
-&lt;li>No installation&lt;/li>
-&lt;li>No server setup&lt;/li>
-&lt;li>No user accounts&lt;/li>
-&lt;li>No database configuration&lt;/li>
-&lt;/ul>
-&lt;p>Instead, edrys-Lite offers a browser-based collaborative learning environment that just works, letting educators focus on teaching rather than troubleshooting.&lt;/p></description></item></channel></rss>
+ &lt;/h2&gt;
+&lt;/div&gt;&lt;p&gt;edrys-Lite is an open-source educational platform that brings simplicity back to digital classrooms. Born from the belief that educational technology should empower rather than overwhelm, we&amp;rsquo;ve created a streamlined system that requires:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No installation&lt;/li&gt;
+&lt;li&gt;No server setup&lt;/li&gt;
+&lt;li&gt;No user accounts&lt;/li&gt;
+&lt;li&gt;No database configuration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Instead, edrys-Lite offers a browser-based collaborative learning environment that just works, letting educators focus on teaching rather than troubleshooting.&lt;/p&gt;</description></item></channel></rss>
