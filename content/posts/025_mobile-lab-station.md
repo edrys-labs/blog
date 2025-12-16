@@ -36,6 +36,11 @@ The station stands tall enough for good vertical organization, narrow enough to 
 
 The aluminum construction provides structural stability while remaining lightweight. We can reposition the entire station—four labs, cameras, computers, and all—in minutes.
 
+<div style="text-align: center; max-width: 60%; margin: 2em auto;">
+  <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/mobile-lab-station/station.jpg" alt="Mobile Lab Station" style="max-width: 50%; border: 1px solid #ddd; border-radius: 4px;" />
+  <p style="font-style: italic; color: #666; margin-top: 0.5em;">Mobile Lab Station Overview</p>
+</div>
+
 ## The Lab Configurations
 
 Each of the four shelves hosts a different embedded systems lab:
