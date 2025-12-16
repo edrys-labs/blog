@@ -55,8 +55,8 @@ The physical station answered a key question: "Where does the hardware actually 
 
 <div style="text-align: center; max-width: 80%; margin: 2em auto;">
   <div style="display: flex; justify-content: center; gap: 1em; flex-wrap: wrap;">
-    <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/crosslab-meeting-dortmund/AVR128DB48_lab.jpg" alt="AVR128DB48 Lab" style="max-width: 45%; border: 1px solid #ddd; border-radius: 4px;" />
-    <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/crosslab-meeting-dortmund/AVR128DB48_lab_2.png" alt="AVR128DB48 Lab" style="max-width: 45%; border: 1px solid #ddd; border-radius: 4px;" />
+    <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/crosslab-meeting-dortmund/AVR128DB48_lab.jpg" alt="AVR128DB48 Lab" style="max-width: 40%; border: 1px solid #ddd; border-radius: 4px;" />
+    <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/crosslab-meeting-dortmund/AVR128DB48_lab_2.png" alt="AVR128DB48 Lab" style="max-width: 50%; border: 1px solid #ddd; border-radius: 4px;" />
   </div>
   <p style="font-style: italic; color: #666; margin-top: 0.5em;">AVR128DB48 Lab Overview</p>
 </div>
