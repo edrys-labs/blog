@@ -16,7 +16,7 @@ ReLaCS ("Remote Lab Challenge") is a project led at TH Köln, in partnership wit
 For our students, it was a natural extension of what they already do in the embedded systems course: build small hardware experiments, then make them accessible over the web using [Edrys-Lite](https://edrys-labs.github.io/).
 
 <div style="text-align: center; max-width: 70%; margin: 2em auto;">
-  <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/relacs-remote-lab-challenge/lab-rack.jpg" alt="Rack of student remote lab prototypes" style="max-width: 60%; border: 1px solid #ddd; border-radius: 4px;" />
+  <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/relacs-remote-lab-challenge/lab-rack.jpg" alt="Rack of student remote lab prototypes" style="max-height: 500px; max-width: 100%; border: 1px solid #ddd; border-radius: 4px;" />
   <p style="font-style: italic; color: #666; margin-top: 0.5em;">Student prototypes mounted on our mobile lab rack</p>
 </div>
 
@@ -29,7 +29,7 @@ True to the course's hands-on spirit, students didn't just simulate their ideas�
 One team built a small car model—3D-printed and hand-painted—driven by an **STM32 Nucleo** board communicating over **CAN bus** with a second STM32 microcontroller. The setup demonstrates a genuine automotive-style architecture in miniature: one board issues commands, the other executes them, and a breadboard of supporting circuitry handles the interfacing in between.
 
 <div style="text-align: center; max-width: 70%; margin: 2em auto;">
-  <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/relacs-remote-lab-challenge/stm32-can-lab.jpg" alt="STM32 boards connected via CAN bus controlling a model car" style="max-width: 60%; border: 1px solid #ddd; border-radius: 4px;" />
+  <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/relacs-remote-lab-challenge/stm32-can-lab.jpg" alt="STM32 boards connected via CAN bus controlling a model car" style="max-height: 500px; max-width: 100%; border: 1px solid #ddd; border-radius: 4px;" />
   <p style="font-style: italic; color: #666; margin-top: 0.5em;">Two STM32 Nucleo boards linked over CAN bus, driving a 3D-printed model car</p>
 </div>
 
@@ -38,7 +38,7 @@ One team built a small car model—3D-printed and hand-painted—driven by an **
 Another team built a labyrinth-style balancing game: a ball rests on a tilting platform, and an Arduino-driven servo tilts the surface to guide it toward a target. A webcam mounted overhead lets a remote student watch the ball's position live—closing the feedback loop entirely through the browser, just like they would sitting in front of the physical device.
 
 <div style="text-align: center; max-width: 70%; margin: 2em auto;">
-  <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/relacs-remote-lab-challenge/tilt-ball-lab.jpg" alt="Camera-tracked tilting platform with a ball balancing game" style="max-width: 60%; border: 1px solid #ddd; border-radius: 4px;" />
+  <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/relacs-remote-lab-challenge/tilt-ball-lab.jpg" alt="Camera-tracked tilting platform with a ball balancing game" style="max-height: 500px; max-width: 100%; border: 1px solid #ddd; border-radius: 4px;" />
   <p style="font-style: italic; color: #666; margin-top: 0.5em;">A servo-actuated tilting platform, observed by an overhead camera for remote play</p>
 </div>
 
