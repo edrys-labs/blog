@@ -3,7 +3,7 @@ title: "The Editor Module: Your Gateway to Interactive Coding in Edrys-Lite"
 date: 2025-11-10T13:38:26+01:00
 description: "Discover how the Editor Module brings real-time collaborative coding to your remote labs."
 draft: false
-author: "Jihad Hyadi, Github Copilot"
+author: "Jihad Hyadi"
 cover: 'static/img/posts/module-editor/cover.png'
 ---
 

@@ -3,7 +3,7 @@ title: "Remote Hardware Control: Bridging Virtual and Physical Interfaces"
 date: 2025-12-16T10:00:00+01:00
 description: "How the Hardware Control Module uses Digilent Analog Discovery 2 to enable remote button presses and potentiometer adjustments for embedded systems labs."
 draft: false
-author: "Jihad Hyadi, Github Copilot"
+author: "Jihad Hyadi"
 cover: 'static/img/posts/module-hardware-control/cover.png'
 ---
 

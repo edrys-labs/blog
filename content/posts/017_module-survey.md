@@ -3,7 +3,7 @@ title: "The Survey Module: Gathering Insights from Your Students"
 date: 2025-11-10T14:35:00+01:00
 description: "Collect feedback, assess understanding, and visualize results - all within your remote lab environment."
 draft: false
-author: "Jihad Hyadi, Github Copilot"
+author: "Jihad Hyadi"
 cover: 'static/img/posts/module-survey/cover.png'
 ---
 

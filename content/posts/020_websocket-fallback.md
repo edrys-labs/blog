@@ -3,7 +3,7 @@ title: "WebSocket Fallback: Reliable Communication When WebRTC Fails"
 date: 2025-11-11T08:00:00+01:00
 description: "Ensuring seamless classroom connectivity with WebSocket fallback for restrictive network environments."
 draft: false
-author: "Jihad Hyadi, Github Copilot"
+author: "Jihad Hyadi"
 cover: 'static/img/posts/websocket-fallback/cover.png'
 ---
 

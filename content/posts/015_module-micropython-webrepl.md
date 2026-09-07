@@ -3,7 +3,7 @@ title: "The MicroPython WebREPL Module: Wireless Microcontroller Control"
 date: 2025-11-10T14:25:00+01:00
 description: "Program and control MicroPython boards wirelessly over WiFi - bringing IoT and embedded systems to remote labs."
 draft: false
-author: "Jihad Hyadi, Github Copilot"
+author: "Jihad Hyadi"
 cover: 'static/img/posts/module-micropython-webrepl/cover.png'
 ---
 

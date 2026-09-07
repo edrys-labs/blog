@@ -3,7 +3,7 @@ title: "The Terminal Module: Bringing Command-Line Power to Your Browser"
 date: 2025-11-10T14:01:42+01:00
 description: "Execute code, run commands, and interact with a full terminal environment - all from your browser with the PyxTerm.js Module."
 draft: false
-author: "Jihad Hyadi, Github Copilot"
+author: "Jihad Hyadi"
 cover: 'static/img/posts/module-pyxtermjs/cover.png'
 ---
 

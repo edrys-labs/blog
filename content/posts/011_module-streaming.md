@@ -3,7 +3,7 @@ title: "The Streaming Module: Delivering Live Video to Remote Labs"
 date: 2025-11-10T14:05:12+01:00
 description: "Share live video and audio from your lab station directly to all students - no complex streaming setup required."
 draft: false
-author: "Jihad Hyadi, Github Copilot"
+author: "Jihad Hyadi"
 cover: 'static/img/posts/module-streaming/cover.png'
 ---
 

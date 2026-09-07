@@ -3,7 +3,7 @@ title: "The Code Logger Module: Understanding How Students Code"
 date: 2025-11-10T14:40:00+01:00
 description: "Track student coding activity in real-time - helping you provide better support and understand learning patterns."
 draft: false
-author: "Jihad Hyadi, Github Copilot"
+author: "Jihad Hyadi"
 cover: 'static/img/posts/module-code-logger/cover.png'
 ---
 

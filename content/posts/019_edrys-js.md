@@ -3,7 +3,7 @@ title: "Edrys.js: The Engine Behind the Edrys Modules"
 date: 2025-11-10T14:45:00+01:00
 description: "Discover the JavaScript library that powers all Edrys-Lite modules, making real-time collaboration and state management effortless."
 draft: false
-author: "Jihad Hyadi, Github Copilot"
+author: "Jihad Hyadi"
 cover: 'static/img/posts/edrys-js/cover.png'
 ---
 

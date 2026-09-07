@@ -3,7 +3,7 @@ title: "The Markdown Module: Rich Documentation for Your Labs"
 date: 2025-11-10T14:10:30+01:00
 description: "Create beautiful, interactive lab instructions with formulas, diagrams, and multimedia - all from simple Markdown."
 draft: false
-author: "Jihad Hyadi, Github Copilot"
+author: "Jihad Hyadi"
 cover: 'static/img/posts/module-markdown-it/cover.png'
 ---
 

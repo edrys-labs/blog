@@ -3,7 +3,7 @@ title: "Remote Lab: Programming Calliope Mini with MicroPython"
 date: 2025-11-12T09:19:00+01:00
 description: "A hands-on remote laboratory where students learn embedded systems programming with MicroPython on the Calliope mini educational microcontroller."
 draft: false
-author: "Jihad Hyadi, Github Copilot"
+author: "Jihad Hyadi"
 cover: 'static/img/posts/remote-lab-calliope-mini/cover.png'
 ---
 

@@ -3,7 +3,7 @@ title: "The Mobile Remote Lab Station: Hardware Meets Software"
 date: 2025-11-13T10:00:00+01:00
 description: "How we built a portable, automated station hosting four remote embedded systems labs with intelligent lighting and camera control."
 draft: false
-author: "Jihad Hyadi, Github Copilot"
+author: "Jihad Hyadi"
 cover: 'static/img/posts/mobile-lab-station/cover.jpg'
 ---
 

@@ -3,7 +3,7 @@ title: "Remote Lab: Ultrasonic Distance Measurement with Arduino"
 date: 2025-11-12T08:27:00+01:00
 description: "A hands-on remote laboratory for learning embedded systems programming through ultrasonic sensor distance measurement."
 draft: false
-author: "Jihad Hyadi, Github Copilot"
+author: "Jihad Hyadi"
 cover: 'static/img/posts/remote-lab-distance-measurement/cover.png'
 ---
 

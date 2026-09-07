@@ -3,7 +3,7 @@ title: "The AVR8js Simulator: Arduino Without Hardware"
 date: 2025-11-10T14:15:45+01:00
 description: "Test and debug Arduino code instantly with a browser-based microcontroller simulator - no physical board required."
 draft: false
-author: "Jihad Hyadi, Github Copilot"
+author: "Jihad Hyadi"
 cover: 'static/img/posts/module-avr8js/cover.png'
 ---
 

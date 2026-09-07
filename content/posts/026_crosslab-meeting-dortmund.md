@@ -3,7 +3,7 @@ title: "CrossLab Project Meeting: Collaborative Remote Labs in Action"
 date: 2025-12-16T09:00:00+01:00
 description: "Showcasing cross-institutional collaboration at the Dortmund project meeting where Edrys powered a joint remote lab between TU Freiberg and Technische Hochschule Mittelhessen."
 draft: false
-author: "Jihad Hyadi, Github Copilot"
+author: "Jihad Hyadi"
 cover: 'static/img/posts/crosslab-meeting-dortmund/cover.jpg'
 ---
 

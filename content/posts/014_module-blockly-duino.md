@@ -3,7 +3,7 @@ title: "The BlocklyDuino Module: Visual Programming for Everyone"
 date: 2025-11-10T14:20:30+01:00
 description: "Program Arduino with drag-and-drop blocks instead of code - perfect for beginners, accessible for everyone."
 draft: false
-author: "Jihad Hyadi, Github Copilot"
+author: "Jihad Hyadi"
 cover: 'static/img/posts/module-blockly-duino/cover.png'
 ---
 

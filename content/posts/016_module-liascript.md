@@ -3,7 +3,7 @@ title: "The LiaScript Module: Interactive Learning Content Made Simple"
 date: 2025-11-10T14:30:00+01:00
 description: "Create engaging, interactive courses with quizzes, animations, code runners, and multimedia - all from simple Markdown."
 draft: false
-author: "Jihad Hyadi, Github Copilot"
+author: "Jihad Hyadi"
 cover: 'static/img/posts/module-liascript/cover.png'
 ---
 

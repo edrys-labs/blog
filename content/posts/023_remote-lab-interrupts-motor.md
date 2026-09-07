@@ -3,7 +3,7 @@ title: "Remote Lab: Interrupt-Driven Stepper Motor Control"
 date: 2025-11-12T09:10:00+01:00
 description: "A hands-on remote laboratory where students learn interrupt programming by building a visual stepper motor position tracker with LED feedback."
 draft: false
-author: "Jihad Hyadi, Github Copilot"
+author: "Jihad Hyadi"
 cover: 'static/img/posts/remote-lab-interrupts-motor/cover.png'
 ---
 

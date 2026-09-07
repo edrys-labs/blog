@@ -3,7 +3,7 @@ title: "Remote Lab: Building a 180° Distance Scanner with ADC"
 date: 2025-11-12T09:00:00+01:00
 description: "A hands-on remote laboratory where students master analog-to-digital conversion by building a rotating infrared distance scanner with Arduino."
 draft: false
-author: "Jihad Hyadi, Github Copilot"
+author: "Jihad Hyadi"
 cover: 'static/img/posts/remote-lab-adc-scanner/cover.png'
 ---
 
