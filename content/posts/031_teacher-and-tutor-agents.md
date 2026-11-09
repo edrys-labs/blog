@@ -27,7 +27,7 @@ npx @edryslabs/edrys-dev init my-lab
 Open the new folder in your agent and write "start". The agent launches edrys-dev itself. A **sparkles button** in the top bar of the class then opens the agent chat, which only you can see. Write what you want, and the agent edits the lab while the class updates next to the conversation.
 
 <div style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/teacher-and-tutor-agents/agent-chat.png" alt="The agent chat docked next to an Arduino Blink lab, with the agent offering buttons to choose from" style="max-width: 100%; border: 1px solid #ddd; border-radius: 4px;" />
+  <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/teacher-and-tutor-agents/agent-chat.png" alt="The agent chat docked next to an Arduino Blink lab, with the agent offering buttons to choose from" style="max-width: min(100%, 700px); border: 1px solid #ddd; border-radius: 4px;" />
 </div>
 
 The agent can also check its own work in the live class. It sees the rooms, users and modules, reads the messages between modules and the errors from your own modules, and can open a student or station tab. An editor whose **Execute** button reaches nobody can now be traced by reading the messages that were actually sent, rather than by guessing from the configuration.
@@ -37,7 +37,7 @@ The agent can also check its own work in the live class. It sees the rooms, user
 Start edrys-dev with `--tutor`, and your students get a **robot button** in the top bar. They need nothing but the class link. The answers come from an AI on your computer: Claude Code by default, or Codex with `--tutor-agent codex`.
 
 <div style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/teacher-and-tutor-agents/tutor-student.png" alt="A student asks the tutor how to make the LED blink twice as fast and gets a hint about the delay values" style="max-width: 100%; border: 1px solid #ddd; border-radius: 4px;" />
+  <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/teacher-and-tutor-agents/tutor-student.png" alt="A student asks the tutor how to make the LED blink twice as fast and gets a hint about the delay values" style="max-width: min(100%, 700px); border: 1px solid #ddd; border-radius: 4px;" />
 </div>
 
 The tutor gives hints instead of whole solutions, in the student's language. With every question it reads the current `lab.yml` and what the modules in the student's room share, such as the code in an editor. It can't see terminal output or the screen, so it asks students to paste those.
@@ -65,7 +65,7 @@ ANTHROPIC_API_KEY=sk-ant-... npx @edryslabs/edrys-dev lab.yml --tutor --tutor-mo
 The agent chat has a **Students view** showing every question and answer as it happens, with a switch to turn the tutor off and on without restarting.
 
 <div style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/teacher-and-tutor-agents/tutor-teacher.png" alt="The Students view in the agent chat, with the tutor switch and a student's conversation" style="max-width: 100%; border: 1px solid #ddd; border-radius: 4px;" />
+  <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/teacher-and-tutor-agents/tutor-teacher.png" alt="The Students view in the agent chat, with the tutor switch and a student's conversation" style="max-width: min(100%, 700px); border: 1px solid #ddd; border-radius: 4px;" />
 </div>
 
 After class, the teacher agent can read those conversations too:

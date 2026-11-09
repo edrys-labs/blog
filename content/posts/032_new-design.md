@@ -16,7 +16,7 @@ Edrys-lite 3.2 changes that with a full redesign. The way classes work stays the
 The three-dot menu in the top right now has a theme switch: **Light**, **Dark**, or **System** to follow your device. The whole interface follows it, from the top bar and rooms drawer to the chat, the settings and the module frames.
 
 <div style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/new-design/dark-classroom.png" alt="An Edrys-lite classroom in the dark theme" style="max-width: 100%; border: 1px solid #ddd; border-radius: 4px;" />
+  <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/new-design/dark-classroom.png" alt="An Edrys-lite classroom in the dark theme" style="max-width: min(100%, 700px); border: 1px solid #ddd; border-radius: 4px;" />
 </div>
 
 The fonts are new as well: Noto Sans for text and JetBrains Mono for code.
@@ -25,7 +25,7 @@ The fonts are new as well: Noto Sans for text and JetBrains Mono for code.
 
 The start page used to be a plain row of dark cards. Now a dashed **Create a class** card sits first and tells you that you can start empty or from a ready-made lab. A class without a logo gets its own generated picture, so classes are easier to tell apart at a glance. A notice also makes it clear that your classrooms are stored only in this browser, and that you should keep a backup.
 
-<div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
+<div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; max-width: 1000px; margin: 0 auto;">
   <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/new-design/list-before.png" alt="The classroom list before the redesign" style="flex: 1 1 300px; min-width: 0; max-width: 100%; border: 1px solid #ddd; border-radius: 4px;" />
   <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/new-design/list-after.png" alt="The redesigned classroom list" style="flex: 1 1 300px; min-width: 0; max-width: 100%; border: 1px solid #ddd; border-radius: 4px;" />
 </div>
@@ -34,7 +34,7 @@ The start page used to be a plain row of dark cards. Now a dashed **Create a cla
 
 Settings is where teachers spend most of their time, so it changed the most. Each section now has a heading with a coloured icon and a sentence explaining what it's for. Labels sit above the fields, the selected tab is clearly marked, and station setup is broken into numbered steps. On the Main tab, a live preview shows how your class will appear on the start page.
 
-<div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
+<div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; max-width: 1000px; margin: 0 auto;">
   <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/new-design/settings-before.png" alt="The Settings dialog before the redesign" style="flex: 1 1 300px; min-width: 0; max-width: 100%; border: 1px solid #ddd; border-radius: 4px;" />
   <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/new-design/settings-after.png" alt="The redesigned Settings dialog" style="flex: 1 1 300px; min-width: 0; max-width: 100%; border: 1px solid #ddd; border-radius: 4px;" />
 </div>
@@ -46,7 +46,7 @@ Rooms have their own colours too, so a room's tile in the drawer and its modules
 You no longer have to start from nothing or hunt for a lab file on GitHub. A new labs dialog lists the ready-made labs from edrys-labs, for Arduino, Calliope mini, simulators and more. You can search by board or topic, and show only labs with or without a station. A tag on each lab tells you whether it needs hardware at a station or runs with nothing but a browser.
 
 <div style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/new-design/labs-dialog.png" alt="The Choose a lab dialog with a search field, station filters and a list of ready-made labs" style="max-width: 100%; border: 1px solid #ddd; border-radius: 4px;" />
+  <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/new-design/labs-dialog.png" alt="The Choose a lab dialog with a search field, station filters and a list of ready-made labs" style="max-width: min(100%, 700px); border: 1px solid #ddd; border-radius: 4px;" />
 </div>
 
 There are two ways to open it. When you create a class, choose **From a ready-made lab** and click **Create** next to a lab to get your own copy. In an existing class, go to **Settings → Import / Export** and click **Browse labs**. Using a lab there replaces the setup of that class after you confirm, while its members stay.
