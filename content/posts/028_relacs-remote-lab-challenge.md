@@ -13,7 +13,7 @@ Students from our **Software Development for Embedded Systems** course recently 
 
 ReLaCS ("Remote Lab Challenge") is a project led at TH Köln, in partnership with the School of Engineering at the University of Edinburgh, and funded by the Stiftung für Innovation in der Hochschullehre. Running from April 2026 to March 2028, the project asks interdisciplinary student teams to design laboratory experiments for remote lab infrastructure while thinking through accessibility, sustainability, and pedagogy from the start. The best prototypes are refined and made available for future teaching, feeding into a shared knowledge hub for remote lab best practices.
 
-For our students, it was a natural extension of what they already do in the embedded systems course: build small hardware experiments, then make them accessible over the web using [Edrys-Lite](https://edrys-labs.github.io/).
+For our students, it was a natural extension of what they already do in the embedded systems course: build small hardware experiments, then make them accessible over the web using [edrys-lite](https://edrys-labs.github.io/).
 
 <div style="text-align: center; max-width: 70%; margin: 2em auto;">
   <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/relacs-remote-lab-challenge/lab-rack.jpg" alt="Rack of student remote lab prototypes" style="max-height: 500px; max-width: 100%; border: 1px solid #ddd; border-radius: 4px;" />
@@ -54,4 +54,4 @@ We're proud of our students for jumping into this challenge, and we're looking f
 
 Learn more about the challenge: [ReLaCS at TH Köln](https://www.th-koeln.de/anlagen-energie-und-maschinensysteme/relacs_138409.php)
 
-Learn more about Edrys-Lite: [edrys-labs.github.io](https://edrys-labs.github.io)
+Learn more about edrys-lite: [edrys-labs.github.io](https://edrys-labs.github.io)

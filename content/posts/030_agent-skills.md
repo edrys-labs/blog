@@ -1,13 +1,13 @@
 ---
-title: "Agent Skills for Edrys-Lite: Let Your AI Assistant Build Labs and Modules"
+title: "Agent Skills for edrys-lite: Let Your AI Assistant Build Labs and Modules"
 date: 2026-10-27T09:00:00+01:00
-description: "Two Agent Skills teach AI coding assistants like Claude Code, GitHub Copilot and Cursor how Edrys-Lite works, so they can build classroom configurations and write new modules that actually load, validate and run."
+description: "Two Agent Skills teach AI coding assistants like Claude Code, GitHub Copilot and Cursor how edrys-lite works, so they can build classroom configurations and write new modules that actually load, validate and run."
 draft: false
 author: "Jihad Hyadi"
 cover: 'static/img/posts/agent-skills/cover.png'
 ---
 
-Building an Edrys-Lite lab means knowing which modules exist, which config keys each one reads, which message subjects connect an editor to a runner, and where each module belongs: Lobby, room or station. Writing a new module means learning the `edrys.js` API, meta tags, roles and shared state. AI assistants are good at this kind of work, but on their own they know little about Edrys and will guess: a made-up module URL, a config key that does nothing, an editor whose **Execute** button sends a message nobody listens to.
+Building an edrys-lite lab means knowing which modules exist, which config keys each one reads, which message subjects connect an editor to a runner, and where each module belongs: Lobby, room or station. Writing a new module means learning the `edrys.js` API, meta tags, roles and shared state. AI assistants are good at this kind of work, but on their own they know little about Edrys and will guess: a made-up module URL, a config key that does nothing, an editor whose **Execute** button sends a message nobody listens to.
 
 To fix that, we've published [**edrys-labs/skills**](https://github.com/edrys-labs/skills): two [Agent Skills](https://agentskills.io) that give an AI assistant what it needs to build labs and modules correctly.
 
@@ -98,4 +98,4 @@ The skills give an agent knowledge and checks it would otherwise lack, but they 
 
 The skills are open source and available on GitHub: [edrys-labs/skills](https://github.com/edrys-labs/skills). If an agent gets something wrong, or a module is missing from the catalog, open an issue or a pull request. Every fix makes the next lab better for everyone.
 
-Learn more about Edrys-Lite: [edrys-labs.github.io](https://edrys-labs.github.io)
+Learn more about edrys-lite: [edrys-labs.github.io](https://edrys-labs.github.io)

@@ -74,7 +74,7 @@ Students get theory, practice, and real-world connection all in one place.
 
 ## Getting Started
 
-Add Arduino simulation to your Edrys-Lite lab with this URL:
+Add Arduino simulation to your edrys-lite lab with this URL:
 
 ```
 https://edrys-labs.github.io/module-avr8js/index.html

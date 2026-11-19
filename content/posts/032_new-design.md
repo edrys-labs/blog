@@ -1,22 +1,22 @@
 ---
-title: "A New Look for Edrys-lite: Dark Mode, Clearer Settings and a Layout for Phones"
+title: "A New Look for edrys-lite: Dark Mode, Clearer Settings and a Layout for Phones"
 date: 2026-11-09T09:30:00+01:00
-description: "Edrys-lite 3.2 brings a redesigned interface with light and dark themes, reworked classroom and settings pages, a phone layout, and a shared style that lets modules follow the classroom's theme."
+description: "edrys-lite 3.2 brings a redesigned interface with light and dark themes, reworked classroom and settings pages, a phone layout, and a shared style that lets modules follow the classroom's theme."
 draft: false
 author: "Jihad Hyadi"
 cover: 'static/img/posts/new-design/cover.png'
 ---
 
-A lab in Edrys-lite is built from many pieces: rooms, modules from different authors, stations, a settings dialog with a lot to configure. Over time, the interface around those pieces had started to feel dated and uneven, and it was never designed for a phone.
+A lab in edrys-lite is built from many pieces: rooms, modules from different authors, stations, a settings dialog with a lot to configure. Over time, the interface around those pieces had started to feel dated and uneven, and it was never designed for a phone.
 
-Edrys-lite 3.2 changes that with a full redesign. The way classes work stays the same, and your existing classrooms carry over. What's new is how everything looks and how easy it is to find your way around.
+edrys-lite 3.2 changes that with a full redesign. The way classes work stays the same, and your existing classrooms carry over. What's new is how everything looks and how easy it is to find your way around.
 
 ## Light, Dark or System
 
 The three-dot menu in the top right now has a theme switch: **Light**, **Dark**, or **System** to follow your device. The whole interface follows it, from the top bar and rooms drawer to the chat, the settings and the module frames.
 
 <div style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/new-design/dark-classroom.png" alt="An Edrys-lite classroom in the dark theme" style="max-width: min(100%, 700px); border: 1px solid #ddd; border-radius: 4px;" />
+  <img src="https://raw.githubusercontent.com/edrys-labs/blog/refs/heads/main/content/static/img/posts/new-design/dark-classroom.png" alt="An edrys-lite classroom in the dark theme" style="max-width: min(100%, 700px); border: 1px solid #ddd; border-radius: 4px;" />
 </div>
 
 The fonts are new as well: Noto Sans for text and JetBrains Mono for code.

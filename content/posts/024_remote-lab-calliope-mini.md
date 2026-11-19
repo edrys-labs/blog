@@ -72,10 +72,10 @@ The skills transfer to larger embedded projects—IoT devices, robotics, home au
 
 The [**Code Logger Module**](/blog/posts/018_module-code-logger) anonymously captures student work, helping instructors identify common challenges and improve the curriculum. The open-ended format encourages creativity and experimentation—essential skills for embedded systems development.
 
-The lab demonstrates how Edrys-Lite makes hands-on embedded systems education accessible without requiring students to own hardware or visit physical labs. Students at TU Bergakademie Freiberg complete these exercises remotely, gaining practical skills from anywhere with internet access.
+The lab demonstrates how edrys-lite makes hands-on embedded systems education accessible without requiring students to own hardware or visit physical labs. Students at TU Bergakademie Freiberg complete these exercises remotely, gaining practical skills from anywhere with internet access.
 
-Ready to teach MicroPython and sensor programming through hands-on remote experimentation? Build your Calliope mini lab with Edrys-Lite!
+Ready to teach MicroPython and sensor programming through hands-on remote experimentation? Build your Calliope mini lab with edrys-lite!
 
 Explore the lab: [github.com/edrys-labs/lab-calliope-mini](https://github.com/edrys-labs/lab-calliope-mini)
 
-Learn more about Edrys-Lite: [edrys-labs.github.io](https://edrys-labs.github.io)
+Learn more about edrys-lite: [edrys-labs.github.io](https://edrys-labs.github.io)

@@ -11,7 +11,7 @@ Every great remote lab needs clear instructions. Students need to understand wha
 
 ## What is the Markdown-it Module?
 
-The Markdown-it Module brings powerful documentation capabilities to your Edrys-Lite labs. Write your lab instructions, explanations, and educational content in simple Markdown, and the module renders it beautifully with support for mathematical formulas, diagrams, embedded videos, and more.
+The Markdown-it Module brings powerful documentation capabilities to your edrys-lite labs. Write your lab instructions, explanations, and educational content in simple Markdown, and the module renders it beautifully with support for mathematical formulas, diagrams, embedded videos, and more.
 
 It's like having a textbook, whiteboard, and presentation slides all in one - right next to your interactive lab components.
 
@@ -70,7 +70,7 @@ The Markdown-it Module shines when building complete learning experiences:
 
 ## Getting Started
 
-Add rich documentation to your Edrys-Lite lab by including this URL:
+Add rich documentation to your edrys-lite lab by including this URL:
 
 ```
 https://edrys-labs.github.io/module-markdown-it/index.html

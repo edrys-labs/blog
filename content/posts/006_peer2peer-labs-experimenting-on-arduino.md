@@ -10,7 +10,7 @@ featured: true
 
 EIn this example, the Arduino is also hosting a website/dashboard to control it and any kind of experiment it performs. Everything that is required is a Chrome based browser with WebSerial, works on Linux and should also work on Windows or Mac.
 
-Edrys-Lite is a RemoteLab Sharing environment that runs entirely within the browser, where others can connect via WebRTC (simple peer to peer connection)...
+edrys-lite is a RemoteLab Sharing environment that runs entirely within the browser, where others can connect via WebRTC (simple peer to peer connection)...
 
 https://edrys-labs.github.io
 

@@ -76,7 +76,7 @@ These projects teach both programming and networking concepts simultaneously.
 
 ## Getting Started
 
-Add MicroPython capabilities to your Edrys-Lite lab with this URL:
+Add MicroPython capabilities to your edrys-lite lab with this URL:
 
 ```
 https://edrys-labs.github.io/module-micropython-webrepl/

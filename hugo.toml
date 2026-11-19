@@ -2,7 +2,7 @@ baseURL = 'https://edrys-labs.github.io/blog/'
 languageCode = 'en'
 defaultContentLanguage = "en"
 hasCJKLanguage = true
-title = 'edrys-Lite [BLOG]'
+title = 'edrys-lite [BLOG]'
 copyright = 'The erdys-Lite Team'
 theme = 'itheme'
 
@@ -21,7 +21,7 @@ url = 'https://github.com/edrys-labs'
 #name = 'Twitter'
 #url = 'https://twitter.com/some-one'
 [[params.blogroll]]
-name = 'edrys-Lite'
+name = 'edrys-lite'
 url = 'https://edrys-labs.github.io'
 [[params.blogroll]]
 name = 'LiaScript'

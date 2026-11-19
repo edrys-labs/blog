@@ -11,7 +11,7 @@ Teaching programming means understanding not just what students produce, but how
 
 ## What is the Code Logger Module?
 
-The Code Logger Module is a teaching tool that tracks code execution in your Edrys-Lite labs. When students run code in the [Editor Module](/blog/posts/009_module-editor/), the Code Logger quietly records it. Teachers can then view this history to understand student work patterns, identify struggles, and provide timely assistance.
+The Code Logger Module is a teaching tool that tracks code execution in your edrys-lite labs. When students run code in the [Editor Module](/blog/posts/009_module-editor/), the Code Logger quietly records it. Teachers can then view this history to understand student work patterns, identify struggles, and provide timely assistance.
 
 It's like having a window into your students' coding process without looking over their shoulders.
 
@@ -73,7 +73,7 @@ It's an invisible teaching assistant, providing insights without interfering wit
 
 ## Getting Started
 
-Add code monitoring to your Edrys-Lite lab with this URL:
+Add code monitoring to your edrys-lite lab with this URL:
 
 ```
 https://edrys-labs.github.io/module-code-logger/

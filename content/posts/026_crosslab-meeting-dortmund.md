@@ -31,7 +31,7 @@ We showcased two key components of our remote lab infrastructure:
 
 ### 1. The Edrys Platform
 
-We demonstrated the [Edrys-Lite](https://edrys-labs.github.io/) platform's capabilities:
+We demonstrated the [edrys-lite](https://edrys-labs.github.io/) platform's capabilities:
 
 - **Rapid lab deployment**: Creating new lab configurations in minutes
 - **Modular architecture**: Combining [Editor](/blog/posts/009_module-editor), [Terminal](/blog/posts/010_module-pyxtermjs), [Streaming](/blog/posts/011_module-streaming), and other modules
@@ -94,6 +94,6 @@ The Dortmund gathering catalyzed ongoing collaborations in cross-platform lab sh
 
 Ready to explore cross-institutional remote lab collaboration? The platform is ready, the examples exist—now it's about building partnerships.
 
-Learn more about Edrys-Lite: [edrys-labs.github.io](https://edrys-labs.github.io)
+Learn more about edrys-lite: [edrys-labs.github.io](https://edrys-labs.github.io)
 
 Learn more about CrossLab: [cross-lab.org](https://cross-lab.org)

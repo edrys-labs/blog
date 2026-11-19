@@ -128,6 +128,6 @@ Whether you're setting up one lab or dozens, thinking through the physical setup
 
 Ready to build remote lab infrastructure? Start with the hardware that matches your needs, then add intelligence through software.
 
-Learn more about Edrys-Lite: [edrys-labs.github.io](https://edrys-labs.github.io)
+Learn more about edrys-lite: [edrys-labs.github.io](https://edrys-labs.github.io)
 
 Explore our labs: [github.com/edrys-labs/lab-tubaf-embedded-systems](https://github.com/edrys-labs/lab-tubaf-embedded-systems)

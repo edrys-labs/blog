@@ -11,7 +11,7 @@ Remember when we talked about the [Editor Module](/blog/posts/009_module-editor/
 
 ## What is the PyxTerm.js Module?
 
-The PyxTerm.js Module brings a fully functional terminal to your Edrys-Lite labs. Students can execute code, run commands, compile programs, and see real-time output - all within their browser. It's like having a command-line interface accessible to everyone in your class, regardless of their operating system or local setup.
+The PyxTerm.js Module brings a fully functional terminal to your edrys-lite labs. Students can execute code, run commands, compile programs, and see real-time output - all within their browser. It's like having a command-line interface accessible to everyone in your class, regardless of their operating system or local setup.
 
 Built on the powerful [pyxterm.js](https://github.com/cs01/pyxtermjs) project, this module transforms remote learning by eliminating the "it works on my machine" problem that plagues programming education.
 
@@ -47,7 +47,7 @@ This seamless integration makes it ideal for:
 
 ## Getting Started
 
-Adding the Terminal Module to your Edrys-Lite lab is straightforward. Simply include this URL in your lab configuration:
+Adding the Terminal Module to your edrys-lite lab is straightforward. Simply include this URL in your lab configuration:
 
 ```
 https://edrys-labs.github.io/module-pyxtermjs/index.html

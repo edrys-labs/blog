@@ -20,7 +20,7 @@ Documentation is important, but sometimes you need more than static text. You ne
 - **Data visualization** - Charts, graphs, and diagrams
 - **ASCII art** - Simple drawings that render beautifully
 
-The LiaScript Module brings all this power to your Edrys-Lite labs.
+The LiaScript Module brings all this power to your edrys-lite labs.
 
 ## Why LiaScript in Remote Labs?
 
@@ -83,13 +83,13 @@ Combined with hands-on modules like the [Editor](/blog/posts/009_module-editor/)
 
 ## Getting Started
 
-Add interactive LiaScript content to your Edrys-Lite lab with this URL:
+Add interactive LiaScript content to your edrys-lite lab with this URL:
 
 ```
 https://edrys-labs.github.io/module-liascript/
 ```
 
-Point it to any LiaScript course URL (like the [official edrys-Lite documentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/edrys-labs/documentation/refs/heads/main/README.md)), or write your own content directly in the module configuration.
+Point it to any LiaScript course URL (like the [official edrys-lite documentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/edrys-labs/documentation/refs/heads/main/README.md)), or write your own content directly in the module configuration.
 
 Your course immediately becomes interactive, engaging, and shareable.
 

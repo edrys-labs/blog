@@ -1,5 +1,5 @@
 ---
-title: "Students Innovate with edrys-Lite to Design Remote Labs"
+title: "Students Innovate with edrys-lite to Design Remote Labs"
 date: "2024-07-30"
 draft: false
 author: "Sebastian Zug"
@@ -8,7 +8,7 @@ description: ""
 featured: true
 ---
 
-Participants in the "Software Development for Embedded Systems" lecture recently undertook an ambitious project: creating five remote labs as open educational resources using edrys-Lite. This integrated practical course challenged students not only to tackle the technical aspects but also to craft comprehensive learning experiences. Each lab solution includes detailed descriptions of learning objectives, introductory quizzes, and task descriptions to ensure a thorough understanding.
+Participants in the "Software Development for Embedded Systems" lecture recently undertook an ambitious project: creating five remote labs as open educational resources using edrys-lite. This integrated practical course challenged students not only to tackle the technical aspects but also to craft comprehensive learning experiences. Each lab solution includes detailed descriptions of learning objectives, introductory quizzes, and task descriptions to ensure a thorough understanding.
 
 ![Sharing an embedded systems lab only via the browser](https://edrys-labs.github.io/blog/static/img/posts/students-innovate-with-edrys-lite-to-design-remote-labs/cover.jpg)
 

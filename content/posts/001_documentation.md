@@ -4,10 +4,10 @@ date: "2025-04-07"
 draft: false
 author: "André Dietrich"
 cover: 'static/img/posts/documentation/cover.jpg'
-description: "The official edrys-Lite documentation is now available."
+description: "The official edrys-lite documentation is now available."
 ---
 
-The official edrys-Lite documentation is now available. It provides a comprehensive overview of the edrys-Lite platform, including its features, installation instructions, and usage guidelines. The documentation is designed to help users get started with edrys-Lite quickly and easily.
+The official edrys-lite documentation is now available. It provides a comprehensive overview of the edrys-lite platform, including its features, installation instructions, and usage guidelines. The documentation is designed to help users get started with edrys-lite quickly and easily.
 
 It covers everything from setting up the environment to creating and managing remote labs. The documentation is available online and can be accessed at any time.
 

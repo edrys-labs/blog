@@ -69,10 +69,10 @@ This lab teaches ADC fundamentals through practical application rather than abst
 
 The skills transfer directly to real-world embedded systems development—from environmental monitoring and medical devices to industrial automation and IoT applications. The [**Code Logger Module**](/blog/posts/018_module-code-logger) anonymously captures student work, helping instructors identify common challenges and improve the curriculum.
 
-The lab demonstrates how Edrys-Lite makes hands-on embedded systems education accessible without requiring students to own hardware or visit physical labs. Students at TU Bergakademie Freiberg complete these exercises remotely, gaining practical skills from anywhere with internet access.
+The lab demonstrates how edrys-lite makes hands-on embedded systems education accessible without requiring students to own hardware or visit physical labs. Students at TU Bergakademie Freiberg complete these exercises remotely, gaining practical skills from anywhere with internet access.
 
-Ready to teach ADC fundamentals through hands-on remote experimentation? Build your scanner lab with Edrys-Lite!
+Ready to teach ADC fundamentals through hands-on remote experimentation? Build your scanner lab with edrys-lite!
 
 Explore the lab: [github.com/edrys-labs/lab-tubaf-embedded-systems](https://github.com/edrys-labs/lab-tubaf-embedded-systems)
 
-Learn more about Edrys-Lite: [edrys-labs.github.io](https://edrys-labs.github.io)
+Learn more about edrys-lite: [edrys-labs.github.io](https://edrys-labs.github.io)

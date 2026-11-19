@@ -107,7 +107,7 @@ Students can also practise at home before or after a lab session, without needin
 
 ## Getting Started
 
-Add the module to your Edrys-Lite lab with this URL:
+Add the module to your edrys-lite lab with this URL:
 
 ```
 https://edrys-labs.github.io/module-micropython-simulator/index.html
@@ -121,4 +121,4 @@ The module is built on the [micro:bit MicroPython simulator](https://github.com/
 
 The module itself is MIT-licensed and available on GitHub: [edrys-labs/module-micropython-simulator](https://github.com/edrys-labs/module-micropython-simulator)
 
-Learn more about Edrys-Lite: [edrys-labs.github.io](https://edrys-labs.github.io)
+Learn more about edrys-lite: [edrys-labs.github.io](https://edrys-labs.github.io)

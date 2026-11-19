@@ -1,15 +1,15 @@
 ---
-title: "Class Designs: Give Every Edrys-lite Classroom Its Own Look"
+title: "Class Designs: Give Every edrys-lite Classroom Its Own Look"
 date: 2026-11-19T10:00:00+01:00
-description: "Edrys-lite 3.3 lets teachers pick a design for their class: Standard, a denser Compact, a Playful one for younger learners, or their own colors, font, corners and text size, saved in a small design file."
+description: "edrys-lite 3.3 lets teachers pick a design for their class: Standard, a denser Compact, a Playful one for younger learners, or their own colors, font, corners and text size, saved in a small design file."
 draft: false
 author: "Jihad Hyadi"
 cover: 'static/img/posts/class-designs/cover.png'
 ---
 
-The [new look](/blog/posts/032_new-design/) in Edrys-lite 3.2 gave every classroom light and dark themes. But one look doesn't suit every class. A lab with eight modules needs every pixel, while a class of ten-year-olds needs big buttons and some colour. And a university course might want its own colours.
+The [new look](/blog/posts/032_new-design/) in edrys-lite 3.2 gave every classroom light and dark themes. But one look doesn't suit every class. A lab with eight modules needs every pixel, while a class of ten-year-olds needs big buttons and some colour. And a university course might want its own colours.
 
-Edrys-lite 3.3 adds **class designs**. A teacher picks how the classroom looks, and everyone in the class sees it.
+edrys-lite 3.3 adds **class designs**. A teacher picks how the classroom looks, and everyone in the class sees it.
 
 ## Pick a Design
 
@@ -17,7 +17,7 @@ Settings has a new **Design** tab. It offers three built-in designs, each shown 
 
 | Design       | Looks                                                                                                  |
 | ------------ | ------------------------------------------------------------------------------------------------------ |
-| **Standard** | the usual Edrys-lite look                                                                              |
+| **Standard** | the usual edrys-lite look                                                                              |
 | **Compact**  | smaller text, nearly square corners and a white top bar, so more modules fit on screen                 |
 | **Playful**  | bigger text, round shapes, a yellow top bar, thick outlines and a colour per module, for younger learners |
 | **Custom**   | your own colours, corners and text size, on top of one of the three                                    |
@@ -97,6 +97,6 @@ For module authors, `--edrys-primary` and `--edrys-on-primary` now follow the cl
 
 ## Try It
 
-Class designs are live in Edrys-lite 3.3 at [edrys-labs.github.io](https://edrys-labs.github.io). Open one of your classes, go to **Settings → Design**, and try them out.
+Class designs are live in edrys-lite 3.3 at [edrys-labs.github.io](https://edrys-labs.github.io). Open one of your classes, go to **Settings → Design**, and try them out.
 
 If a design looks wrong with a particular module, screen or language, please [open an issue](https://github.com/edrys-labs/edrys-lite/issues).

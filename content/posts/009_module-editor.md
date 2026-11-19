@@ -1,5 +1,5 @@
 ---
-title: "The Editor Module: Your Gateway to Interactive Coding in Edrys-Lite"
+title: "The Editor Module: Your Gateway to Interactive Coding in edrys-lite"
 date: 2025-11-10T13:38:26+01:00
 description: "Discover how the Editor Module brings real-time collaborative coding to your remote labs."
 draft: false
@@ -7,11 +7,11 @@ author: "Jihad Hyadi"
 cover: 'static/img/posts/module-editor/cover.png'
 ---
 
-Writing code together in real-time doesn't have to be complicated. The **Editor Module** for Edrys-Lite brings the power of collaborative coding directly to your browser, making it easy for students and educators to work on code simultaneously without any installation or setup hassles.
+Writing code together in real-time doesn't have to be complicated. The **Editor Module** for edrys-lite brings the power of collaborative coding directly to your browser, making it easy for students and educators to work on code simultaneously without any installation or setup hassles.
 
 ## What is the Editor Module?
 
-The Editor Module is a flexible code editor that integrates seamlessly into your Edrys-Lite labs. Think of it as your classroom's shared coding workspace - multiple students can type, edit, and see each other's changes in real-time, just like working together on a shared document.
+The Editor Module is a flexible code editor that integrates seamlessly into your edrys-lite labs. Think of it as your classroom's shared coding workspace - multiple students can type, edit, and see each other's changes in real-time, just like working together on a shared document.
 
 What makes it special? It's designed to work hand-in-hand with other Edrys modules. Write your code in the editor, and with a single click, send it to a terminal module for execution, a compiler for building, or any other module that can process your code.
 
@@ -43,13 +43,13 @@ You can even work with multiple files at once - perfect for more complex program
 
 ## Part of a Bigger Picture
 
-The Editor Module doesn't work in isolation. It's part of the modular ecosystem that makes Edrys-Lite so powerful. Combine it with terminal modules, simulation environments, or documentation modules to create complete, interactive learning experiences.
+The Editor Module doesn't work in isolation. It's part of the modular ecosystem that makes edrys-lite so powerful. Combine it with terminal modules, simulation environments, or documentation modules to create complete, interactive learning experiences.
 
 In an upcoming post, we'll explore how the Editor Module connects with terminal modules to create a full development environment right in your browser. Stay tuned!
 
 ## Try It Yourself
 
-The Editor Module is open source and ready to use. Add it to your next Edrys-Lite lab and experience the simplicity of browser-based collaborative coding.
+The Editor Module is open source and ready to use. Add it to your next edrys-lite lab and experience the simplicity of browser-based collaborative coding.
 
 Check out the module on GitHub: [edrys-labs/module-editor](https://github.com/edrys-labs/module-editor)
 

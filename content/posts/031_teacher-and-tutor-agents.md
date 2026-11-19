@@ -1,5 +1,5 @@
 ---
-title: "Teacher and Tutor Agents in Edrys-lite: AI That Builds the Lab and Helps in It"
+title: "Teacher and Tutor Agents in edrys-lite: AI That Builds the Lab and Helps in It"
 date: 2026-11-09T09:00:00+01:00
 description: "With edrys-dev, an AI agent builds and checks your lab from a chat inside the classroom, and a separate tutor agent answers your students' questions with hints instead of solutions."
 draft: false
@@ -7,7 +7,7 @@ author: "Jihad Hyadi"
 cover: 'static/img/posts/teacher-and-tutor-agents/cover.png'
 ---
 
-Our [Agent Skills](/blog/posts/030_agent-skills/) taught AI assistants how Edrys-lite works, but an assistant working only on a file can't see whether the classroom accepted the lab, and it can't help the students once class begins.
+Our [Agent Skills](/blog/posts/030_agent-skills/) taught AI assistants how edrys-lite works, but an assistant working only on a file can't see whether the classroom accepted the lab, and it can't help the students once class begins.
 
 [**edrys-dev**](https://github.com/edrys-labs/edrys-devserver), our local development server for labs, closes both gaps. You write your lab in a `lab.yml` file, edrys-dev opens it as a class in your browser, and every save updates all open tabs. On top of that, it now offers two agents with very different jobs:
 
@@ -84,4 +84,4 @@ You need [Node.js](https://nodejs.org) 20 or newer, and Claude Code or Codex on 
 
 Both agents can make mistakes. Try the lab with a second browser as a student before you use it, read any code the agent wrote before running it at a station, and watch the Students view during the first sessions.
 
-edrys-dev is open source: [edrys-labs/edrys-devserver](https://github.com/edrys-labs/edrys-devserver). Learn more about Edrys-lite: [edrys-labs.github.io](https://edrys-labs.github.io)
+edrys-dev is open source: [edrys-labs/edrys-devserver](https://github.com/edrys-labs/edrys-devserver). Learn more about edrys-lite: [edrys-labs.github.io](https://edrys-labs.github.io)

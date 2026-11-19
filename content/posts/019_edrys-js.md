@@ -1,17 +1,17 @@
 ---
 title: "Edrys.js: The Engine Behind the Edrys Modules"
 date: 2025-11-10T14:45:00+01:00
-description: "Discover the JavaScript library that powers all Edrys-Lite modules, making real-time collaboration and state management effortless."
+description: "Discover the JavaScript library that powers all edrys-lite modules, making real-time collaboration and state management effortless."
 draft: false
 author: "Jihad Hyadi"
 cover: 'static/img/posts/edrys-js/cover.png'
 ---
 
-Behind every Edrys-Lite module we've explored - from the [Editor](/blog/posts/009_module-editor/) to the [Survey Module](/blog/posts/017_module-survey/) - lies a powerful JavaScript library that makes it all work seamlessly: **Edrys.js**. This library handles the complex parts of real-time collaboration so module developers can focus on creating great learning experiences.
+Behind every edrys-lite module we've explored - from the [Editor](/blog/posts/009_module-editor/) to the [Survey Module](/blog/posts/017_module-survey/) - lies a powerful JavaScript library that makes it all work seamlessly: **Edrys.js**. This library handles the complex parts of real-time collaboration so module developers can focus on creating great learning experiences.
 
 ## What is Edrys.js?
 
-Edrys.js is the client library that connects modules to the Edrys-Lite classroom environment. It provides a simple API for:
+Edrys.js is the client library that connects modules to the edrys-lite classroom environment. It provides a simple API for:
 
 - **Real-time messaging** - Send and receive data between users instantly
 - **State synchronization** - Share reactive data that updates across all clients
@@ -149,7 +149,7 @@ The library provides the foundation; imagination provides the direction.
 
 ## Getting Started with Module Development
 
-Want to create your own Edrys-Lite module? The Edrys.js library makes it accessible. Start with a simple HTML file, include the library, and begin building. The [full API documentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/edrys-labs/documentation/refs/heads/main/README.md#19) guides you through everything from basic messaging to advanced state management.
+Want to create your own edrys-lite module? The Edrys.js library makes it accessible. Start with a simple HTML file, include the library, and begin building. The [full API documentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/edrys-labs/documentation/refs/heads/main/README.md#19) guides you through everything from basic messaging to advanced state management.
 
 Edrys.js proves that powerful collaboration tools don't require complex frameworks or extensive infrastructure. Sometimes, the right abstraction is all you need to transform complexity into simplicity.
 

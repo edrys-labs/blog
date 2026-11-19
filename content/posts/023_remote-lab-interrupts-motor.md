@@ -72,10 +72,10 @@ This lab teaches interrupt fundamentals through practical application. Students 
 
 The skills apply directly to robotics, industrial automation, user interfaces, and any system requiring immediate response to external events. The [**Code Logger Module**](/blog/posts/018_module-code-logger) anonymously captures student work, helping instructors identify common challenges and improve the curriculum.
 
-The lab demonstrates how Edrys-Lite makes hands-on embedded systems education accessible without requiring students to own hardware or visit physical labs. Students at TU Bergakademie Freiberg complete these exercises remotely, gaining practical skills from anywhere with internet access.
+The lab demonstrates how edrys-lite makes hands-on embedded systems education accessible without requiring students to own hardware or visit physical labs. Students at TU Bergakademie Freiberg complete these exercises remotely, gaining practical skills from anywhere with internet access.
 
-Ready to teach interrupt programming through hands-on remote experimentation? Build your motor control lab with Edrys-Lite!
+Ready to teach interrupt programming through hands-on remote experimentation? Build your motor control lab with edrys-lite!
 
 Explore the lab: [github.com/edrys-labs/lab-tubaf-embedded-systems](https://github.com/edrys-labs/lab-tubaf-embedded-systems)
 
-Learn more about Edrys-Lite: [edrys-labs.github.io](https://edrys-labs.github.io)
+Learn more about edrys-lite: [edrys-labs.github.io](https://edrys-labs.github.io)

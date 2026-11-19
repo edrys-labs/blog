@@ -7,11 +7,11 @@ author: "Jihad Hyadi"
 cover: 'static/img/posts/websocket-fallback/cover.png'
 ---
 
-Real-time collaboration is at the heart of Edrys-Lite, but what happens when network conditions prevent the ideal technology from working? Our **WebSocket fallback** solution ensures that classrooms remain connected even in the most restrictive network environments.
+Real-time collaboration is at the heart of edrys-lite, but what happens when network conditions prevent the ideal technology from working? Our **WebSocket fallback** solution ensures that classrooms remain connected even in the most restrictive network environments.
 
 ## The WebRTC Challenge
 
-By default, Edrys-Lite uses WebRTC for peer-to-peer communication. WebRTC is excellent - it offers low latency, direct browser-to-browser connections, and efficient media streaming. But it has an Achilles heel: **network restrictions**.
+By default, edrys-lite uses WebRTC for peer-to-peer communication. WebRTC is excellent - it offers low latency, direct browser-to-browser connections, and efficient media streaming. But it has an Achilles heel: **network restrictions**.
 
 In many educational institutions, corporate environments, or regions with strict internet policies, firewalls and NAT (Network Address Translation) configurations can block WebRTC connections. When this happens, students and teachers simply can't connect to each other, making remote labs impossible.
 
@@ -19,7 +19,7 @@ This is a real problem. Education shouldn't be blocked by network infrastructure
 
 ## The WebSocket Solution
 
-To ensure Edrys-Lite works everywhere, we've implemented WebSocket-based communication as a fallback option. While WebRTC connects browsers directly to each other, WebSockets route all communication through a central server - a configuration that works even in restrictive network environments.
+To ensure edrys-lite works everywhere, we've implemented WebSocket-based communication as a fallback option. While WebRTC connects browsers directly to each other, WebSockets route all communication through a central server - a configuration that works even in restrictive network environments.
 
 Think of it this way:
 - **WebRTC**: Like a phone call - direct connection, lower latency, but requires open network paths
@@ -50,12 +50,12 @@ If your students report connection issues, or if you're teaching in an environme
 
 ## Customizable Server Configuration
 
-For both protocols, Edrys-Lite offers flexibility:
+For both protocols, edrys-lite offers flexibility:
 
 - **WebRTC mode**: Configure your signaling server URL if you want to host your own infrastructure
 - **WebSocket mode**: Specify your WebSocket server URL for complete control
 
-Don't want to manage servers? No problem. Edrys-Lite provides default servers for both modes, so switching protocols is as simple as clicking a button.
+Don't want to manage servers? No problem. edrys-lite provides default servers for both modes, so switching protocols is as simple as clicking a button.
 
 ## Best of Both Worlds
 
@@ -63,7 +63,7 @@ Most educators will stick with WebRTC - it's faster and more efficient when netw
 
 You can start a semester with WebRTC, and if connection issues arise, switch to WebSocket mid-course without disrupting your teaching. Students just need to rejoin with the new classroom URL.
 
-This flexibility transforms Edrys-Lite from "works in most networks" to "works everywhere."
+This flexibility transforms edrys-lite from "works in most networks" to "works everywhere."
 
 ## Technical Details for the Curious
 
@@ -89,4 +89,4 @@ Education should be universally accessible. WebSocket fallback helps make that r
 
 Ready to ensure your classroom works everywhere? Try WebSocket mode and eliminate connectivity barriers!
 
-Explore Edrys-Lite: [edrys-labs.github.io](https://edrys-labs.github.io)
+Explore edrys-lite: [edrys-labs.github.io](https://edrys-labs.github.io)

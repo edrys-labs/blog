@@ -11,7 +11,7 @@ Not everyone learns programming the same way. For some students, typing code syn
 
 ## What is BlocklyDuino?
 
-The BlocklyDuino Module brings Google's Blockly visual programming environment to your Edrys-Lite labs, specifically tailored for Arduino development. Instead of writing text-based code, students drag and drop colorful blocks that snap together like puzzle pieces. Each block represents a programming concept - loops, conditions, sensor readings, LED control - and they only fit together in ways that make sense.
+The BlocklyDuino Module brings Google's Blockly visual programming environment to your edrys-lite labs, specifically tailored for Arduino development. Instead of writing text-based code, students drag and drop colorful blocks that snap together like puzzle pieces. Each block represents a programming concept - loops, conditions, sensor readings, LED control - and they only fit together in ways that make sense.
 
 It's programming you can see and touch, making abstract concepts concrete and accessible.
 
@@ -90,7 +90,7 @@ Choose your board, and BlocklyDuino adjusts available pins and features accordin
 
 ## Getting Started
 
-Add visual programming to your Edrys-Lite lab with this URL:
+Add visual programming to your edrys-lite lab with this URL:
 
 ```
 https://edrys-labs.github.io/module-blockly-duino-v2/index.html

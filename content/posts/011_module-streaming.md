@@ -11,7 +11,7 @@ Remote labs need more than just code editors and terminals. Sometimes, students 
 
 ## What is the Streaming Module?
 
-The Streaming Module transforms your webcam into a live broadcast channel for your Edrys-Lite lab. As an instructor or lab station, you can share real-time video and audio with all connected students, letting them observe experiments, demonstrations, and physical processes as they happen.
+The Streaming Module transforms your webcam into a live broadcast channel for your edrys-lite lab. As an instructor or lab station, you can share real-time video and audio with all connected students, letting them observe experiments, demonstrations, and physical processes as they happen.
 
 Think of it as bringing the lab bench directly to your students' screens, no matter where they are in the world.
 
@@ -27,7 +27,7 @@ Some concepts can't be fully conveyed through text or static images. Live video 
 
 ## Built for Remote Labs
 
-Unlike traditional streaming platforms that require complex setups, accounts, or third-party services, the Streaming Module integrates seamlessly into Edrys-Lite. It leverages WebRTC for direct peer-to-peer connections, meaning:
+Unlike traditional streaming platforms that require complex setups, accounts, or third-party services, the Streaming Module integrates seamlessly into edrys-lite. It leverages WebRTC for direct peer-to-peer connections, meaning:
 
 - **Low latency** - Students see what's happening with minimal delay
 - **No streaming service needed** - Everything works browser-to-browser
@@ -55,7 +55,7 @@ The Streaming Module shines in hybrid learning scenarios:
 
 ## Getting Started
 
-Adding video streaming to your Edrys-Lite lab is straightforward. Include this URL in your lab configuration:
+Adding video streaming to your edrys-lite lab is straightforward. Include this URL in your lab configuration:
 
 ```
 https://edrys-labs.github.io/module-streaming/index.html

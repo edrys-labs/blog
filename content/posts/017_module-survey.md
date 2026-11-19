@@ -7,11 +7,11 @@ author: "Jihad Hyadi"
 cover: 'static/img/posts/module-survey/cover.png'
 ---
 
-Teaching isn't just about delivering content - it's about understanding how students learn, what challenges they face, and whether your approach is working. The **Survey Module** brings powerful feedback collection and analysis directly into your Edrys-Lite labs, helping you make data-driven decisions about your teaching.
+Teaching isn't just about delivering content - it's about understanding how students learn, what challenges they face, and whether your approach is working. The **Survey Module** brings powerful feedback collection and analysis directly into your edrys-lite labs, helping you make data-driven decisions about your teaching.
 
 ## What is the Survey Module?
 
-The Survey Module transforms your Edrys-Lite lab into a feedback-gathering platform. Create custom surveys, collect student responses, and visualize results - all without leaving your classroom environment. Built on the powerful [SurveyJS](https://surveyjs.io/) framework, it handles everything from simple polls to complex multi-page questionnaires.
+The Survey Module transforms your edrys-lite lab into a feedback-gathering platform. Create custom surveys, collect student responses, and visualize results - all without leaving your classroom environment. Built on the powerful [SurveyJS](https://surveyjs.io/) framework, it handles everything from simple polls to complex multi-page questionnaires.
 
 No external survey platforms, no separate tools, no data leaving your lab. Everything happens right where your students are already working.
 
@@ -119,7 +119,7 @@ Students rate their own understanding, promoting metacognition and self-directed
 
 ## Getting Started
 
-Add feedback collection to your Edrys-Lite lab with this URL:
+Add feedback collection to your edrys-lite lab with this URL:
 
 ```
 https://edrys-labs.github.io/module-survey/index.html

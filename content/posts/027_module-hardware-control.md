@@ -73,4 +73,4 @@ Ready to add hardware interaction to your remote labs? The module is available n
 
 Explore the module: [github.com/edrys-labs/module-hardware-control](https://github.com/edrys-labs/module-hardware-control)
 
-Learn more about Edrys-Lite: [edrys-labs.github.io](https://edrys-labs.github.io)
+Learn more about edrys-lite: [edrys-labs.github.io](https://edrys-labs.github.io)
