@@ -16,6 +16,10 @@ Our [Agent Skills](/blog/posts/030_agent-skills/) taught AI assistants how edrys
 | **Teacher agent** | You, while you build the lab | Edit `lab.yml` and your modules, look into the running class |
 | **Tutor agent** | Your students, while they work | Answer questions, and nothing else |
 
+This demo shows both at work. Claude Code builds a lab from the agent chat and writes a new module for it, then students ask the tutor for help:
+
+{{< youtube IEkxwEfK3rs >}}
+
 ## The Teacher Agent: Build the Lab From Inside the Class
 
 The teacher agent is the AI coding agent you already use, such as **Claude Code** or **GitHub Copilot**, connected to edrys-dev over [MCP](https://modelcontextprotocol.io). To set up a new lab:
